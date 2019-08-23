@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -Wall -O3 -g  -rdynamic CMakeFiles/sqp_test.dir/sqp_test.cpp.o CMakeFiles/sqp_test.dir/sqp_test_autodiff.cpp.o CMakeFiles/sqp_test.dir/bfgs_test.cpp.o CMakeFiles/sqp_test.dir/test_main.cpp.o  -o sqp_test -Wl,-Bstatic -lgtest -lgtest_main -Wl,-Bdynamic -lpthread 

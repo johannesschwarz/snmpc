@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -Wall -O3 -g  -rdynamic CMakeFiles/nmpc_test.dir/nmpc_test.cpp.o  -o nmpc_test 

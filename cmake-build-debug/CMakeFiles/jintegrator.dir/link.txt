@@ -1,0 +1,2 @@
+/usr/bin/ar qc libjintegrator.a  CMakeFiles/jintegrator.dir/ThirdParty/polympc/src/integrator.cpp.o
+/usr/bin/ranlib libjintegrator.a

@@ -1,0 +1,23 @@
+/opt/clion-2019.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/johannes/Devel/snmpc
+-- The C compiler identification is GNU 7.4.0
+-- The CXX compiler identification is GNU 7.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython2.7.so (found suitable version "2.7.15+", minimum required is "2.7") 
+-- Found CasADi include dir: /usr/local/include;/usr/local/include/casadi
+-- Found CasADi libs: casadi;/usr/local/lib/libcasadi.so
+-- Target architecture 64 bits
+-- Found GTest: /usr/lib/libgtest.a  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/johannes/Devel/snmpc/cmake-build-debug

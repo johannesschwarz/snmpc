@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmobile_robot_new.a  CMakeFiles/mobile_robot_new.dir/mobile_robot_new.cpp.o
+/usr/bin/ranlib libmobile_robot_new.a

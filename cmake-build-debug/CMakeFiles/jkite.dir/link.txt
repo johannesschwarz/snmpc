@@ -1,0 +1,2 @@
+/usr/bin/ar qc libjkite.a  CMakeFiles/jkite.dir/kite.cpp.o
+/usr/bin/ranlib libjkite.a

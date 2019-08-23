@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/johannes/Devel/johannes_mpc/ThirdParty/polympc/examples/mobile_robot.cpp
+mobile_robot.h
+/home/johannes/Devel/johannes_mpc/ThirdParty/polympc/examples/mobile_robot.h
+

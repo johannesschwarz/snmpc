@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/johannes/Devel/johannes_mpc/ThirdParty/polympc/examples/kite.cpp
+kite.h
+/home/johannes/Devel/johannes_mpc/ThirdParty/polympc/examples/kite.h
+
+/home/johannes/Devel/johannes_mpc/ThirdParty/polympc/examples/kite.h
+casadi/casadi.hpp
+/home/johannes/Devel/johannes_mpc/ThirdParty/polympc/examples/casadi/casadi.hpp
+chrono
+-
+sys/stat.h
+/home/johannes/Devel/johannes_mpc/ThirdParty/polympc/examples/sys/stat.h
+fstream
+-
+

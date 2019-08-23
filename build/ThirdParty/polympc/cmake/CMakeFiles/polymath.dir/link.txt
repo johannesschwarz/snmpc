@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpolymath.a  CMakeFiles/polymath.dir/polymath.cpp.o
+/usr/bin/ranlib libpolymath.a

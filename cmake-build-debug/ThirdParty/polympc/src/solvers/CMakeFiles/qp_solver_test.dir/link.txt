@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -Wall -O3 -g  -rdynamic CMakeFiles/qp_solver_test.dir/qp_solver_test.cpp.o CMakeFiles/qp_solver_test.dir/qp_solver_sparse_test.cpp.o CMakeFiles/qp_solver_test.dir/test_main.cpp.o  -o qp_solver_test -Wl,-Bstatic -lgtest -lgtest_main -Wl,-Bdynamic -lpthread 

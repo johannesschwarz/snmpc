@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/johannes/Devel/snmpc/visualization_tools.cpp
+visualization_tools.h
+/home/johannes/Devel/snmpc/visualization_tools.h
+
+/home/johannes/Devel/snmpc/visualization_tools.h
+casadi/casadi.hpp
+/home/johannes/Devel/snmpc/casadi/casadi.hpp
+

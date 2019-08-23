@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -Wall -O3 -g  -rdynamic CMakeFiles/ocproblem_test.dir/ocproblem_test.cpp.o  -o ocproblem_test -Wl,-Bstatic -lgtest -lgtest_main -Wl,-Bdynamic -lpthread 

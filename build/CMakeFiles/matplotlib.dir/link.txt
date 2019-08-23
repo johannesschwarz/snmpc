@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmatplotlib.a  CMakeFiles/matplotlib.dir/matplotlibcpp.cpp.o
+/usr/bin/ranlib libmatplotlib.a

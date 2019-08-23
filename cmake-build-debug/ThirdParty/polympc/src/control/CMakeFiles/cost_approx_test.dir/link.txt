@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -Wall -O3 -g  -rdynamic CMakeFiles/cost_approx_test.dir/cost_approx_test.cpp.o  -o cost_approx_test 

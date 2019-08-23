@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -Wall -O3 -g  -rdynamic CMakeFiles/constraint_collocation_test.dir/constraint_collocation_test.cpp.o  -o constraint_collocation_test 

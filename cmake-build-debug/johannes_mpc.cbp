@@ -1,0 +1,1730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="johannes_mpc"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\ThirdParty\;CMake Files\ThirdParty\polympc\;CMake Files\ThirdParty\polympc\src\;CMake Files\ThirdParty\polympc\src\control\;CMake Files\ThirdParty\polympc\src\solvers\;CMake Files\ThirdParty\polympc\examples\;CMake Files\ThirdParty\polympc\cmake\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\usr\lib\cmake\eigen3\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\casadi\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="johannes_mpc">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/johannes_mpc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 johannes_mpc"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="johannes_mpc/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/johannes_mpc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 johannes_mpc/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="visualization_tools">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/libvisualization_tools.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 visualization_tools"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="visualization_tools/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/libvisualization_tools.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 visualization_tools/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="matplotlib">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/libmatplotlib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 matplotlib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="matplotlib/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/libmatplotlib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 matplotlib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jintegrator">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/libjintegrator.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 jintegrator"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jintegrator/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/libjintegrator.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 jintegrator/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jkite">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/libjkite.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 jkite"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jkite/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/libjkite.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 jkite/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mobile_robot_new">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/libmobile_robot_new.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 mobile_robot_new"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mobile_robot_new/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/libmobile_robot_new.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 mobile_robot_new/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mobile_robot_test">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/mobile_robot_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 mobile_robot_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mobile_robot_test/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/mobile_robot_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 mobile_robot_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="polymath">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/cmake/libpolymath.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/cmake"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/cmake/Makefile&quot;  VERBOSE=1 polymath"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/cmake/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="polymath/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/cmake/libpolymath.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/cmake"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/cmake/Makefile&quot;  VERBOSE=1 polymath/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/cmake/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="odesolver">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/cmake/libodesolver.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/cmake"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/cmake/Makefile&quot;  VERBOSE=1 odesolver"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/cmake/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="odesolver/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/cmake/libodesolver.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/cmake"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/cmake/Makefile&quot;  VERBOSE=1 odesolver/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/cmake/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="auto_diff_test2">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/auto_diff_test2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 auto_diff_test2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="auto_diff_test2/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/auto_diff_test2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 auto_diff_test2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="auto_diff_test">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/auto_diff_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 auto_diff_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="auto_diff_test/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/auto_diff_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 auto_diff_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kite_control_test">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/kite_control_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 kite_control_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kite_control_test/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/kite_control_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 kite_control_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kite_sode_test">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/kite_sode_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 kite_sode_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kite_sode_test/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/kite_sode_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 kite_sode_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="legendre_test">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/legendre_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 legendre_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="legendre_test/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/legendre_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 legendre_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mobile_robot">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/libmobile_robot.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 mobile_robot"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mobile_robot/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/libmobile_robot.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 mobile_robot/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ebyshev_test">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/ebyshev_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 ebyshev_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ebyshev_test/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/ebyshev_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 ebyshev_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kite">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/libkite.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 kite"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kite/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/libkite.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 kite/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="robot_control_test">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/robot_control_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 robot_control_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="robot_control_test/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/robot_control_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 robot_control_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kite_model_test">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/kite_model_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 kite_model_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kite_model_test/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/kite_model_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 kite_model_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chebyshev_test">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/chebyshev_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 chebyshev_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chebyshev_test/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/chebyshev_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 chebyshev_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nmpc_test">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/nmpc_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/control/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 nmpc_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nmpc_test/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/nmpc_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/control/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 nmpc_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ocproblem_test">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/ocproblem_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/control/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 ocproblem_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ocproblem_test/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/ocproblem_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/control/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 ocproblem_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cost_approx_test">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/cost_approx_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/control/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 cost_approx_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cost_approx_test/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/cost_approx_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/control/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 cost_approx_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="constraint_collocation_test">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/constraint_collocation_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/control/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 constraint_collocation_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="constraint_collocation_test/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/constraint_collocation_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/control/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 constraint_collocation_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dynamics_approx_test">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/dynamics_approx_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/control/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 dynamics_approx_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dynamics_approx_test/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/dynamics_approx_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/control/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 dynamics_approx_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dynamics_sparse_approx_test">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/dynamics_sparse_approx_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/control/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 dynamics_sparse_approx_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dynamics_sparse_approx_test/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/dynamics_sparse_approx_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/control/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 dynamics_sparse_approx_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/control/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qp_solver_test">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/solvers/qp_solver_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/solvers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/solvers/Makefile&quot;  VERBOSE=1 qp_solver_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/solvers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/solvers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/solvers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qp_solver_test/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/solvers/qp_solver_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/solvers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/solvers/Makefile&quot;  VERBOSE=1 qp_solver_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/solvers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/solvers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/solvers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sqp_test">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/solvers/sqp_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/solvers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/solvers/Makefile&quot;  VERBOSE=1 sqp_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/solvers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/solvers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/solvers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sqp_test/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/solvers/sqp_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/solvers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/examples"/>
+					<Add directory="/usr/local/include/casadi"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/solvers/Makefile&quot;  VERBOSE=1 sqp_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/solvers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/solvers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/src/solvers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/auto_diff_test.cpp">
+			<Option target="auto_diff_test"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/auto_diff_test2.cpp">
+			<Option target="auto_diff_test2"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/chebyshev_test.cpp">
+			<Option target="chebyshev_test"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/ebyshev_test.cpp">
+			<Option target="ebyshev_test"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/kite.cpp">
+			<Option target="kite"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/kite.h">
+			<Option target="kite"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/kite_control_test.cpp">
+			<Option target="kite_control_test"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/kite_model_test.cpp">
+			<Option target="kite_model_test"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/kite_sode_test.cpp">
+			<Option target="kite_sode_test"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/legendre_test.cpp">
+			<Option target="legendre_test"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/mobile_robot.cpp">
+			<Option target="mobile_robot"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/mobile_robot.hpp">
+			<Option target="mobile_robot"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/robot_control_test.cpp">
+			<Option target="robot_control_test"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/control/constraint_collocation_test.cpp">
+			<Option target="constraint_collocation_test"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/control/cost_approx_test.cpp">
+			<Option target="cost_approx_test"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/control/dynamics_approx_test.cpp">
+			<Option target="dynamics_approx_test"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/control/dynamics_sparse_approx_test.cpp">
+			<Option target="dynamics_sparse_approx_test"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/control/nmpc_test.cpp">
+			<Option target="nmpc_test"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/control/ocproblem_test.cpp">
+			<Option target="ocproblem_test"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/integrator.cpp">
+			<Option target="jintegrator"/>
+			<Option target="odesolver"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/integrator.h">
+			<Option target="jintegrator"/>
+			<Option target="odesolver"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/polymath.cpp">
+			<Option target="polymath"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/polymath.h">
+			<Option target="polymath"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/solvers/bfgs_test.cpp">
+			<Option target="sqp_test"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/solvers/qp_solver_sparse_test.cpp">
+			<Option target="qp_solver_test"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/solvers/qp_solver_test.cpp">
+			<Option target="qp_solver_test"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/solvers/sqp_test.cpp">
+			<Option target="sqp_test"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/solvers/sqp_test_autodiff.cpp">
+			<Option target="sqp_test"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/solvers/test_main.cpp">
+			<Option target="qp_solver_test"/>
+			<Option target="sqp_test"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/kite.cpp">
+			<Option target="jkite"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/kite.h">
+			<Option target="jkite"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/main.cpp">
+			<Option target="johannes_mpc"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/matplotlibcpp.cpp">
+			<Option target="matplotlib"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/matplotlibcpp.h">
+			<Option target="matplotlib"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/mobile_robot_new.cpp">
+			<Option target="mobile_robot_new"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/mobile_robot_new.h">
+			<Option target="mobile_robot_new"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/mobile_robot_test.cpp">
+			<Option target="mobile_robot_test"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/visualization_tools.cpp">
+			<Option target="visualization_tools"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/visualization_tools.h">
+			<Option target="visualization_tools"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ThirdParty\polympc\"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ThirdParty\polympc\src\"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/control/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ThirdParty\polympc\src\control\"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/src/solvers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ThirdParty\polympc\src\solvers\"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ThirdParty\polympc\examples\"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/cmake/FindCASADI.cmake">
+			<Option virtualFolder="CMake Files\ThirdParty\polympc\cmake\"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/../../../../usr/lib/cmake/eigen3/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/../../../../usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/../../../../usr/lib/cmake/eigen3/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/../../../../usr/local/lib/cmake/casadi/casadi-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\casadi\"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/../../../../usr/local/lib/cmake/casadi/casadi-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\casadi\"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/../../../../usr/local/lib/cmake/casadi/casadi-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\casadi\"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/../../../../usr/local/lib/cmake/casadi/casadi-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\casadi\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

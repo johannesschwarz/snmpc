@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -Wall -O3 -g  -rdynamic CMakeFiles/kite_sode_test.dir/kite_sode_test.cpp.o  -o kite_sode_test -Wl,-rpath,/usr/local/lib ../cmake/libpolymath.a /usr/local/lib/libcasadi.so.3.5 -ldl /usr/local/lib/libcasadi.so 
