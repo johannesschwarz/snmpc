@@ -1,0 +1,2 @@
+/usr/bin/ar qc libwheeldyn_bicycle.a  CMakeFiles/wheeldyn_bicycle.dir/wheeldyn_bicycle.cpp.o
+/usr/bin/ranlib libwheeldyn_bicycle.a

@@ -19,17 +19,17 @@ target_link_libraries(jkite ${CASADI_LIBRARIES})
 add_library(matplotlib matplotlibcpp.cpp matplotlibcpp.h)
 target_link_libraries(matplotlib ${PYTHON_LIBRARIES})
 
-add_library(mobile_robot_new mobile_robot_new.cpp mobile_robot_new.h)
-target_link_libraries(mobile_robot_new matplotlib ${CASADI_LIBRARIES})
+add_library(wheeldyn_bicycle wheeldyn_bicycle.cpp wheeldyn_bicycle.h)
+target_link_libraries(wheeldyn_bicycle matplotlib ${CASADI_LIBRARIES})
 
-add_library(kinematic_robot kinematic_robot.cpp kinematic_robot.hpp)
-target_link_libraries(kinematic_robot matplotlib mobile_robot_new ${CASADI_LIBRARIES})
+add_library(simple_bicycle simple_bicycle.cpp simple_bicycle.hpp)
+target_link_libraries(simple_bicycle matplotlib wheeldyn_bicycle ${CASADI_LIBRARIES})
 
-add_executable(mobile_robot_test mobile_robot_test.cpp)
-target_link_libraries(mobile_robot_test mobile_robot_new Eigen3::Eigen jintegrator visualization_tools)
+add_executable(wheeldyn_bicycle_mpc wheeldyn_bicycle_mpc.cpp)
+target_link_libraries(wheeldyn_bicycle_mpc wheeldyn_bicycle Eigen3::Eigen jintegrator visualization_tools)
 
-add_executable(kinematic_robot_test kinematic_robot_test.cpp)
-target_link_libraries(kinematic_robot_test kinematic_robot Eigen3::Eigen jintegrator visualization_tools)
+add_executable(simple_bicycle_mpc simple_bicycle_mpc.cpp)
+target_link_libraries(simple_bicycle_mpc simple_bicycle Eigen3::Eigen jintegrator visualization_tools)
 
 add_executable(${PROJECT_NAME} main.cpp)
 target_link_libraries(${PROJECT_NAME} jkite Eigen3::Eigen ${CASADI_LIBRARIES})

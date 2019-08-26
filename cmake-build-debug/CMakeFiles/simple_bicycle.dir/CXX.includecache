@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/johannes/Devel/snmpc/mobile_robot_new.h
+casadi/casadi.hpp
+/home/johannes/Devel/snmpc/casadi/casadi.hpp
+chrono
+-
+sys/stat.h
+/home/johannes/Devel/snmpc/sys/stat.h
+fstream
+-
+
+/home/johannes/Devel/snmpc/simple_bicycle.cpp
+simple_bicycle.hpp
+/home/johannes/Devel/snmpc/simple_bicycle.hpp
+
+/home/johannes/Devel/snmpc/simple_bicycle.hpp
+casadi/casadi.hpp
+/home/johannes/Devel/snmpc/casadi/casadi.hpp
+chrono
+-
+sys/stat.h
+/home/johannes/Devel/snmpc/sys/stat.h
+fstream
+-
+mobile_robot_new.h
+/home/johannes/Devel/snmpc/mobile_robot_new.h
+

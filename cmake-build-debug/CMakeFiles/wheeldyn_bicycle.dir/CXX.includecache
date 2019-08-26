@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/johannes/Devel/snmpc/wheeldyn_bicycle.cpp
+wheeldyn_bicycle.h
+/home/johannes/Devel/snmpc/wheeldyn_bicycle.h
+
+/home/johannes/Devel/snmpc/wheeldyn_bicycle.h
+casadi/casadi.hpp
+/home/johannes/Devel/snmpc/casadi/casadi.hpp
+chrono
+-
+sys/stat.h
+/home/johannes/Devel/snmpc/sys/stat.h
+fstream
+-
+

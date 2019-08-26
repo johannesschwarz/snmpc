@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsimple_bicycle.a  CMakeFiles/simple_bicycle.dir/simple_bicycle.cpp.o
+/usr/bin/ranlib libsimple_bicycle.a

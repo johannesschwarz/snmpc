@@ -305,7 +305,13 @@ polympc_BINARY_DIR:STATIC=/home/johannes/Devel/snmpc/cmake-build-debug/ThirdPart
 polympc_SOURCE_DIR:STATIC=/home/johannes/Devel/snmpc/ThirdParty/polympc/src/solvers
 
 //Dependencies for the target
+simple_bicycle_LIB_DEPENDS:STATIC=general;matplotlib;general;wheeldyn_bicycle;general;casadi;
+
+//Dependencies for the target
 visualization_tools_LIB_DEPENDS:STATIC=general;casadi;
+
+//Dependencies for the target
+wheeldyn_bicycle_LIB_DEPENDS:STATIC=general;matplotlib;general;casadi;
 
 
 ########################

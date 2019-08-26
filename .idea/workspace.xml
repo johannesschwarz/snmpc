@@ -2,11 +2,14 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="johannes_mpc" targetName="simple_bicycle" />
       <config projectName="johannes_mpc" targetName="dynamics_sparse_approx_test" />
       <config projectName="johannes_mpc" targetName="chebyshev_test" />
       <config projectName="johannes_mpc" targetName="cost_approx_test" />
       <config projectName="johannes_mpc" targetName="polymath" />
       <config projectName="johannes_mpc" targetName="kite_model_test" />
+      <config projectName="johannes_mpc" targetName="wheeldyn_bicycle" />
+      <config projectName="johannes_mpc" targetName="wheeldyn_bicycle_mpc" />
       <config projectName="johannes_mpc" targetName="johannes_mpc" />
       <config projectName="johannes_mpc" targetName="dynamics_approx_test" />
       <config projectName="johannes_mpc" targetName="robot_control_test" />
@@ -18,9 +21,7 @@
       <config projectName="johannes_mpc" targetName="kite_sode_test" />
       <config projectName="johannes_mpc" targetName="odesolver" />
       <config projectName="johannes_mpc" targetName="kite_control_test" />
-      <config projectName="johannes_mpc" targetName="mobile_robot_test" />
-      <config projectName="johannes_mpc" targetName="kinematic_robot_test" />
-      <config projectName="johannes_mpc" targetName="kinematic_robot" />
+      <config projectName="johannes_mpc" targetName="simple_bicycle_mpc" />
       <config projectName="johannes_mpc" targetName="qp_solver_test" />
       <config projectName="johannes_mpc" targetName="jintegrator" />
       <config projectName="johannes_mpc" targetName="visualization_tools" />
@@ -28,7 +29,6 @@
       <config projectName="johannes_mpc" targetName="mobile_robot" />
       <config projectName="johannes_mpc" targetName="sqp_test" />
       <config projectName="johannes_mpc" targetName="matplotlib" />
-      <config projectName="johannes_mpc" targetName="mobile_robot_new" />
       <config projectName="johannes_mpc" targetName="jkite" />
       <config projectName="johannes_mpc" targetName="ocproblem_test" />
       <config projectName="johannes_mpc" targetName="kite" />
@@ -41,23 +41,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0df108e8-c153-460c-b547-611513b2c785" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kinematic_robot.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kinematic_robot.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kinematic_robot_test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kinematic_robot_test.dir/kinematic_robot_test.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kinematic_robot_test.dir/kinematic_robot_test.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/matplotlib.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/matplotlib.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mobile_robot_new.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mobile_robot_new.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mobile_robot_test.dir/mobile_robot_test.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mobile_robot_test.dir/mobile_robot_test.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mobile_robot_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mobile_robot_test.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/visualization_tools.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/visualization_tools.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/cmake/CMakeFiles/odesolver.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/cmake/CMakeFiles/odesolver.dir/progress.make" afterDir="false" />
@@ -74,8 +67,13 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/src/solvers/CMakeFiles/qp_solver_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/src/solvers/CMakeFiles/qp_solver_test.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/src/solvers/CMakeFiles/sqp_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/src/solvers/CMakeFiles/sqp_test.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/johannes_mpc.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/johannes_mpc.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/mobile_robot_test" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/mobile_robot_test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile_robot_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mobile_robot_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/kinematic_robot_test" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/kinematic_robot_test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kinematic_robot.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/simple_bicycle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kinematic_robot.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/simple_bicycle.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kinematic_robot_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/simple_bicycle_mpc.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile_robot_new.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/wheeldyn_bicycle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile_robot_new.h" beforeDir="false" afterPath="$PROJECT_DIR$/wheeldyn_bicycle.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile_robot_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/wheeldyn_bicycle_mpc.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +134,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.mobile_robot_test">
+  <component name="RunManager" selected="CMake Application.wheeldyn_bicycle_mpc">
     <configuration name="auto_diff_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="johannes_mpc" TARGET_NAME="auto_diff_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="johannes_mpc" RUN_TARGET_NAME="auto_diff_test">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -192,16 +190,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kinematic_robot" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="johannes_mpc" TARGET_NAME="kinematic_robot" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="kinematic_robot_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="johannes_mpc" TARGET_NAME="kinematic_robot_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="johannes_mpc" RUN_TARGET_NAME="kinematic_robot_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="kite" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="johannes_mpc" TARGET_NAME="kite" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -237,16 +225,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mobile_robot_new" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="johannes_mpc" TARGET_NAME="mobile_robot_new" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="mobile_robot_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="johannes_mpc" TARGET_NAME="mobile_robot_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="johannes_mpc" RUN_TARGET_NAME="mobile_robot_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="nmpc_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="johannes_mpc" TARGET_NAME="nmpc_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="johannes_mpc" RUN_TARGET_NAME="nmpc_test">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -277,6 +255,16 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="simple_bicycle" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="johannes_mpc" TARGET_NAME="simple_bicycle" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="simple_bicycle_mpc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="johannes_mpc" TARGET_NAME="simple_bicycle_mpc" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="johannes_mpc" RUN_TARGET_NAME="simple_bicycle_mpc">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="sqp_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="johannes_mpc" TARGET_NAME="sqp_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="johannes_mpc" RUN_TARGET_NAME="sqp_test">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -287,12 +275,20 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="wheeldyn_bicycle" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="johannes_mpc" TARGET_NAME="wheeldyn_bicycle" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wheeldyn_bicycle_mpc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="johannes_mpc" TARGET_NAME="wheeldyn_bicycle_mpc" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="johannes_mpc" RUN_TARGET_NAME="wheeldyn_bicycle_mpc">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.jintegrator" />
       <item itemvalue="CMake Application.jkite" />
       <item itemvalue="CMake Application.johannes_mpc" />
-      <item itemvalue="CMake Application.kinematic_robot" />
-      <item itemvalue="CMake Application.kinematic_robot_test" />
       <item itemvalue="CMake Application.matplotlib" />
       <item itemvalue="CMake Application.auto_diff_test" />
       <item itemvalue="CMake Application.auto_diff_test2" />
@@ -304,9 +300,11 @@
       <item itemvalue="CMake Application.kite_sode_test" />
       <item itemvalue="CMake Application.legendre_test" />
       <item itemvalue="CMake Application.mobile_robot" />
-      <item itemvalue="CMake Application.mobile_robot_new" />
-      <item itemvalue="CMake Application.mobile_robot_test" />
+      <item itemvalue="CMake Application.simple_bicycle" />
+      <item itemvalue="CMake Application.simple_bicycle_mpc" />
       <item itemvalue="CMake Application.visualization_tools" />
+      <item itemvalue="CMake Application.wheeldyn_bicycle" />
+      <item itemvalue="CMake Application.wheeldyn_bicycle_mpc" />
       <item itemvalue="CMake Application.robot_control_test" />
       <item itemvalue="CMake Application.odesolver" />
       <item itemvalue="CMake Application.polymath" />
@@ -339,7 +337,7 @@
       <workItem from="1566456130714" duration="21904000" />
       <workItem from="1566543124630" duration="18347000" />
       <workItem from="1566569704832" duration="805000" />
-      <workItem from="1566805923498" duration="3780000" />
+      <workItem from="1566805923498" duration="14325000" />
     </task>
     <servers />
   </component>
@@ -362,11 +360,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/ThirdParty/polympc/src/nmpf.hpp</url>
-          <line>148</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/ThirdParty/polympc/src/nmpf.hpp</url>
           <line>218</line>

@@ -79,8 +79,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="kinematic_robot_test">
-				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/kinematic_robot_test" prefix_auto="0" extension_auto="0"/>
+			<Target title="simple_bicycle_mpc">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/simple_bicycle_mpc" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -99,14 +99,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 kinematic_robot_test"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 simple_bicycle_mpc"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="kinematic_robot_test/fast">
-				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/kinematic_robot_test" prefix_auto="0" extension_auto="0"/>
+			<Target title="simple_bicycle_mpc/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/simple_bicycle_mpc" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -125,14 +125,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 kinematic_robot_test/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 simple_bicycle_mpc/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="mobile_robot_test">
-				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/mobile_robot_test" prefix_auto="0" extension_auto="0"/>
+			<Target title="wheeldyn_bicycle_mpc">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/wheeldyn_bicycle_mpc" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -151,14 +151,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 mobile_robot_test"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 wheeldyn_bicycle_mpc"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="mobile_robot_test/fast">
-				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/mobile_robot_test" prefix_auto="0" extension_auto="0"/>
+			<Target title="wheeldyn_bicycle_mpc/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/wheeldyn_bicycle_mpc" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -177,57 +177,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 mobile_robot_test/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="visualization_tools">
-				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/libvisualization_tools.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
-					<Add directory="/usr/include/python2.7"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 visualization_tools"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="visualization_tools/fast">
-				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/libvisualization_tools.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
-					<Add directory="/usr/include/python2.7"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 visualization_tools/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 wheeldyn_bicycle_mpc/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -293,6 +243,156 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="visualization_tools">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/libvisualization_tools.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 visualization_tools"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="visualization_tools/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/libvisualization_tools.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 visualization_tools/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple_bicycle">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/libsimple_bicycle.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 simple_bicycle"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple_bicycle/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/libsimple_bicycle.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 simple_bicycle/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wheeldyn_bicycle">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/libwheeldyn_bicycle.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 wheeldyn_bicycle"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wheeldyn_bicycle/fast">
+				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/libwheeldyn_bicycle.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 wheeldyn_bicycle/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="jintegrator">
 				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/libjintegrator.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
@@ -345,56 +445,6 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="kinematic_robot">
-				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/libkinematic_robot.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
-					<Add directory="/usr/include/python2.7"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 kinematic_robot"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="kinematic_robot/fast">
-				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/libkinematic_robot.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
-					<Add directory="/usr/include/python2.7"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 kinematic_robot/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="jkite">
 				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/libjkite.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
@@ -440,56 +490,6 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 jkite/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="mobile_robot_new">
-				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/libmobile_robot_new.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
-					<Add directory="/usr/include/python2.7"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 mobile_robot_new"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="mobile_robot_new/fast">
-				<Option output="/home/johannes/Devel/snmpc/cmake-build-debug/libmobile_robot_new.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/johannes/Devel/snmpc/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/johannes/Devel/snmpc/ThirdParty/polympc/src"/>
-					<Add directory="/usr/include/python2.7"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 mobile_robot_new/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/johannes/Devel/snmpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1756,15 +1756,6 @@
 			<Option target="qp_solver_test"/>
 			<Option target="sqp_test"/>
 		</Unit>
-		<Unit filename="/home/johannes/Devel/snmpc/kinematic_robot.cpp">
-			<Option target="kinematic_robot"/>
-		</Unit>
-		<Unit filename="/home/johannes/Devel/snmpc/kinematic_robot.hpp">
-			<Option target="kinematic_robot"/>
-		</Unit>
-		<Unit filename="/home/johannes/Devel/snmpc/kinematic_robot_test.cpp">
-			<Option target="kinematic_robot_test"/>
-		</Unit>
 		<Unit filename="/home/johannes/Devel/snmpc/kite.cpp">
 			<Option target="jkite"/>
 		</Unit>
@@ -1780,20 +1771,29 @@
 		<Unit filename="/home/johannes/Devel/snmpc/matplotlibcpp.h">
 			<Option target="matplotlib"/>
 		</Unit>
-		<Unit filename="/home/johannes/Devel/snmpc/mobile_robot_new.cpp">
-			<Option target="mobile_robot_new"/>
+		<Unit filename="/home/johannes/Devel/snmpc/simple_bicycle.cpp">
+			<Option target="simple_bicycle"/>
 		</Unit>
-		<Unit filename="/home/johannes/Devel/snmpc/mobile_robot_new.h">
-			<Option target="mobile_robot_new"/>
+		<Unit filename="/home/johannes/Devel/snmpc/simple_bicycle.hpp">
+			<Option target="simple_bicycle"/>
 		</Unit>
-		<Unit filename="/home/johannes/Devel/snmpc/mobile_robot_test.cpp">
-			<Option target="mobile_robot_test"/>
+		<Unit filename="/home/johannes/Devel/snmpc/simple_bicycle_mpc.cpp">
+			<Option target="simple_bicycle_mpc"/>
 		</Unit>
 		<Unit filename="/home/johannes/Devel/snmpc/visualization_tools.cpp">
 			<Option target="visualization_tools"/>
 		</Unit>
 		<Unit filename="/home/johannes/Devel/snmpc/visualization_tools.h">
 			<Option target="visualization_tools"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/wheeldyn_bicycle.cpp">
+			<Option target="wheeldyn_bicycle"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/wheeldyn_bicycle.h">
+			<Option target="wheeldyn_bicycle"/>
+		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/wheeldyn_bicycle_mpc.cpp">
+			<Option target="wheeldyn_bicycle_mpc"/>
 		</Unit>
 		<Unit filename="/home/johannes/Devel/snmpc/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

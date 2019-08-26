@@ -124,43 +124,30 @@ johannes_mpc/fast:
 .PHONY : johannes_mpc/fast
 
 #=============================================================================
-# Target rules for targets named kinematic_robot_test
+# Target rules for targets named simple_bicycle_mpc
 
 # Build rule for target.
-kinematic_robot_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 kinematic_robot_test
-.PHONY : kinematic_robot_test
+simple_bicycle_mpc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 simple_bicycle_mpc
+.PHONY : simple_bicycle_mpc
 
 # fast build rule for target.
-kinematic_robot_test/fast:
-	$(MAKE) -f CMakeFiles/kinematic_robot_test.dir/build.make CMakeFiles/kinematic_robot_test.dir/build
-.PHONY : kinematic_robot_test/fast
+simple_bicycle_mpc/fast:
+	$(MAKE) -f CMakeFiles/simple_bicycle_mpc.dir/build.make CMakeFiles/simple_bicycle_mpc.dir/build
+.PHONY : simple_bicycle_mpc/fast
 
 #=============================================================================
-# Target rules for targets named mobile_robot_test
+# Target rules for targets named wheeldyn_bicycle_mpc
 
 # Build rule for target.
-mobile_robot_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mobile_robot_test
-.PHONY : mobile_robot_test
+wheeldyn_bicycle_mpc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wheeldyn_bicycle_mpc
+.PHONY : wheeldyn_bicycle_mpc
 
 # fast build rule for target.
-mobile_robot_test/fast:
-	$(MAKE) -f CMakeFiles/mobile_robot_test.dir/build.make CMakeFiles/mobile_robot_test.dir/build
-.PHONY : mobile_robot_test/fast
-
-#=============================================================================
-# Target rules for targets named visualization_tools
-
-# Build rule for target.
-visualization_tools: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 visualization_tools
-.PHONY : visualization_tools
-
-# fast build rule for target.
-visualization_tools/fast:
-	$(MAKE) -f CMakeFiles/visualization_tools.dir/build.make CMakeFiles/visualization_tools.dir/build
-.PHONY : visualization_tools/fast
+wheeldyn_bicycle_mpc/fast:
+	$(MAKE) -f CMakeFiles/wheeldyn_bicycle_mpc.dir/build.make CMakeFiles/wheeldyn_bicycle_mpc.dir/build
+.PHONY : wheeldyn_bicycle_mpc/fast
 
 #=============================================================================
 # Target rules for targets named matplotlib
@@ -176,6 +163,45 @@ matplotlib/fast:
 .PHONY : matplotlib/fast
 
 #=============================================================================
+# Target rules for targets named visualization_tools
+
+# Build rule for target.
+visualization_tools: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 visualization_tools
+.PHONY : visualization_tools
+
+# fast build rule for target.
+visualization_tools/fast:
+	$(MAKE) -f CMakeFiles/visualization_tools.dir/build.make CMakeFiles/visualization_tools.dir/build
+.PHONY : visualization_tools/fast
+
+#=============================================================================
+# Target rules for targets named simple_bicycle
+
+# Build rule for target.
+simple_bicycle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 simple_bicycle
+.PHONY : simple_bicycle
+
+# fast build rule for target.
+simple_bicycle/fast:
+	$(MAKE) -f CMakeFiles/simple_bicycle.dir/build.make CMakeFiles/simple_bicycle.dir/build
+.PHONY : simple_bicycle/fast
+
+#=============================================================================
+# Target rules for targets named wheeldyn_bicycle
+
+# Build rule for target.
+wheeldyn_bicycle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wheeldyn_bicycle
+.PHONY : wheeldyn_bicycle
+
+# fast build rule for target.
+wheeldyn_bicycle/fast:
+	$(MAKE) -f CMakeFiles/wheeldyn_bicycle.dir/build.make CMakeFiles/wheeldyn_bicycle.dir/build
+.PHONY : wheeldyn_bicycle/fast
+
+#=============================================================================
 # Target rules for targets named jintegrator
 
 # Build rule for target.
@@ -189,19 +215,6 @@ jintegrator/fast:
 .PHONY : jintegrator/fast
 
 #=============================================================================
-# Target rules for targets named kinematic_robot
-
-# Build rule for target.
-kinematic_robot: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 kinematic_robot
-.PHONY : kinematic_robot
-
-# fast build rule for target.
-kinematic_robot/fast:
-	$(MAKE) -f CMakeFiles/kinematic_robot.dir/build.make CMakeFiles/kinematic_robot.dir/build
-.PHONY : kinematic_robot/fast
-
-#=============================================================================
 # Target rules for targets named jkite
 
 # Build rule for target.
@@ -213,19 +226,6 @@ jkite: cmake_check_build_system
 jkite/fast:
 	$(MAKE) -f CMakeFiles/jkite.dir/build.make CMakeFiles/jkite.dir/build
 .PHONY : jkite/fast
-
-#=============================================================================
-# Target rules for targets named mobile_robot_new
-
-# Build rule for target.
-mobile_robot_new: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mobile_robot_new
-.PHONY : mobile_robot_new
-
-# fast build rule for target.
-mobile_robot_new/fast:
-	$(MAKE) -f CMakeFiles/mobile_robot_new.dir/build.make CMakeFiles/mobile_robot_new.dir/build
-.PHONY : mobile_robot_new/fast
 
 #=============================================================================
 # Target rules for targets named polymath
@@ -527,60 +527,6 @@ ThirdParty/polympc/src/integrator.cpp.s:
 	$(MAKE) -f CMakeFiles/jintegrator.dir/build.make CMakeFiles/jintegrator.dir/ThirdParty/polympc/src/integrator.cpp.s
 .PHONY : ThirdParty/polympc/src/integrator.cpp.s
 
-kinematic_robot.o: kinematic_robot.cpp.o
-
-.PHONY : kinematic_robot.o
-
-# target to build an object file
-kinematic_robot.cpp.o:
-	$(MAKE) -f CMakeFiles/kinematic_robot.dir/build.make CMakeFiles/kinematic_robot.dir/kinematic_robot.cpp.o
-.PHONY : kinematic_robot.cpp.o
-
-kinematic_robot.i: kinematic_robot.cpp.i
-
-.PHONY : kinematic_robot.i
-
-# target to preprocess a source file
-kinematic_robot.cpp.i:
-	$(MAKE) -f CMakeFiles/kinematic_robot.dir/build.make CMakeFiles/kinematic_robot.dir/kinematic_robot.cpp.i
-.PHONY : kinematic_robot.cpp.i
-
-kinematic_robot.s: kinematic_robot.cpp.s
-
-.PHONY : kinematic_robot.s
-
-# target to generate assembly for a file
-kinematic_robot.cpp.s:
-	$(MAKE) -f CMakeFiles/kinematic_robot.dir/build.make CMakeFiles/kinematic_robot.dir/kinematic_robot.cpp.s
-.PHONY : kinematic_robot.cpp.s
-
-kinematic_robot_test.o: kinematic_robot_test.cpp.o
-
-.PHONY : kinematic_robot_test.o
-
-# target to build an object file
-kinematic_robot_test.cpp.o:
-	$(MAKE) -f CMakeFiles/kinematic_robot_test.dir/build.make CMakeFiles/kinematic_robot_test.dir/kinematic_robot_test.cpp.o
-.PHONY : kinematic_robot_test.cpp.o
-
-kinematic_robot_test.i: kinematic_robot_test.cpp.i
-
-.PHONY : kinematic_robot_test.i
-
-# target to preprocess a source file
-kinematic_robot_test.cpp.i:
-	$(MAKE) -f CMakeFiles/kinematic_robot_test.dir/build.make CMakeFiles/kinematic_robot_test.dir/kinematic_robot_test.cpp.i
-.PHONY : kinematic_robot_test.cpp.i
-
-kinematic_robot_test.s: kinematic_robot_test.cpp.s
-
-.PHONY : kinematic_robot_test.s
-
-# target to generate assembly for a file
-kinematic_robot_test.cpp.s:
-	$(MAKE) -f CMakeFiles/kinematic_robot_test.dir/build.make CMakeFiles/kinematic_robot_test.dir/kinematic_robot_test.cpp.s
-.PHONY : kinematic_robot_test.cpp.s
-
 kite.o: kite.cpp.o
 
 .PHONY : kite.o
@@ -662,59 +608,59 @@ matplotlibcpp.cpp.s:
 	$(MAKE) -f CMakeFiles/matplotlib.dir/build.make CMakeFiles/matplotlib.dir/matplotlibcpp.cpp.s
 .PHONY : matplotlibcpp.cpp.s
 
-mobile_robot_new.o: mobile_robot_new.cpp.o
+simple_bicycle.o: simple_bicycle.cpp.o
 
-.PHONY : mobile_robot_new.o
-
-# target to build an object file
-mobile_robot_new.cpp.o:
-	$(MAKE) -f CMakeFiles/mobile_robot_new.dir/build.make CMakeFiles/mobile_robot_new.dir/mobile_robot_new.cpp.o
-.PHONY : mobile_robot_new.cpp.o
-
-mobile_robot_new.i: mobile_robot_new.cpp.i
-
-.PHONY : mobile_robot_new.i
-
-# target to preprocess a source file
-mobile_robot_new.cpp.i:
-	$(MAKE) -f CMakeFiles/mobile_robot_new.dir/build.make CMakeFiles/mobile_robot_new.dir/mobile_robot_new.cpp.i
-.PHONY : mobile_robot_new.cpp.i
-
-mobile_robot_new.s: mobile_robot_new.cpp.s
-
-.PHONY : mobile_robot_new.s
-
-# target to generate assembly for a file
-mobile_robot_new.cpp.s:
-	$(MAKE) -f CMakeFiles/mobile_robot_new.dir/build.make CMakeFiles/mobile_robot_new.dir/mobile_robot_new.cpp.s
-.PHONY : mobile_robot_new.cpp.s
-
-mobile_robot_test.o: mobile_robot_test.cpp.o
-
-.PHONY : mobile_robot_test.o
+.PHONY : simple_bicycle.o
 
 # target to build an object file
-mobile_robot_test.cpp.o:
-	$(MAKE) -f CMakeFiles/mobile_robot_test.dir/build.make CMakeFiles/mobile_robot_test.dir/mobile_robot_test.cpp.o
-.PHONY : mobile_robot_test.cpp.o
+simple_bicycle.cpp.o:
+	$(MAKE) -f CMakeFiles/simple_bicycle.dir/build.make CMakeFiles/simple_bicycle.dir/simple_bicycle.cpp.o
+.PHONY : simple_bicycle.cpp.o
 
-mobile_robot_test.i: mobile_robot_test.cpp.i
+simple_bicycle.i: simple_bicycle.cpp.i
 
-.PHONY : mobile_robot_test.i
+.PHONY : simple_bicycle.i
 
 # target to preprocess a source file
-mobile_robot_test.cpp.i:
-	$(MAKE) -f CMakeFiles/mobile_robot_test.dir/build.make CMakeFiles/mobile_robot_test.dir/mobile_robot_test.cpp.i
-.PHONY : mobile_robot_test.cpp.i
+simple_bicycle.cpp.i:
+	$(MAKE) -f CMakeFiles/simple_bicycle.dir/build.make CMakeFiles/simple_bicycle.dir/simple_bicycle.cpp.i
+.PHONY : simple_bicycle.cpp.i
 
-mobile_robot_test.s: mobile_robot_test.cpp.s
+simple_bicycle.s: simple_bicycle.cpp.s
 
-.PHONY : mobile_robot_test.s
+.PHONY : simple_bicycle.s
 
 # target to generate assembly for a file
-mobile_robot_test.cpp.s:
-	$(MAKE) -f CMakeFiles/mobile_robot_test.dir/build.make CMakeFiles/mobile_robot_test.dir/mobile_robot_test.cpp.s
-.PHONY : mobile_robot_test.cpp.s
+simple_bicycle.cpp.s:
+	$(MAKE) -f CMakeFiles/simple_bicycle.dir/build.make CMakeFiles/simple_bicycle.dir/simple_bicycle.cpp.s
+.PHONY : simple_bicycle.cpp.s
+
+simple_bicycle_mpc.o: simple_bicycle_mpc.cpp.o
+
+.PHONY : simple_bicycle_mpc.o
+
+# target to build an object file
+simple_bicycle_mpc.cpp.o:
+	$(MAKE) -f CMakeFiles/simple_bicycle_mpc.dir/build.make CMakeFiles/simple_bicycle_mpc.dir/simple_bicycle_mpc.cpp.o
+.PHONY : simple_bicycle_mpc.cpp.o
+
+simple_bicycle_mpc.i: simple_bicycle_mpc.cpp.i
+
+.PHONY : simple_bicycle_mpc.i
+
+# target to preprocess a source file
+simple_bicycle_mpc.cpp.i:
+	$(MAKE) -f CMakeFiles/simple_bicycle_mpc.dir/build.make CMakeFiles/simple_bicycle_mpc.dir/simple_bicycle_mpc.cpp.i
+.PHONY : simple_bicycle_mpc.cpp.i
+
+simple_bicycle_mpc.s: simple_bicycle_mpc.cpp.s
+
+.PHONY : simple_bicycle_mpc.s
+
+# target to generate assembly for a file
+simple_bicycle_mpc.cpp.s:
+	$(MAKE) -f CMakeFiles/simple_bicycle_mpc.dir/build.make CMakeFiles/simple_bicycle_mpc.dir/simple_bicycle_mpc.cpp.s
+.PHONY : simple_bicycle_mpc.cpp.s
 
 visualization_tools.o: visualization_tools.cpp.o
 
@@ -743,6 +689,60 @@ visualization_tools.cpp.s:
 	$(MAKE) -f CMakeFiles/visualization_tools.dir/build.make CMakeFiles/visualization_tools.dir/visualization_tools.cpp.s
 .PHONY : visualization_tools.cpp.s
 
+wheeldyn_bicycle.o: wheeldyn_bicycle.cpp.o
+
+.PHONY : wheeldyn_bicycle.o
+
+# target to build an object file
+wheeldyn_bicycle.cpp.o:
+	$(MAKE) -f CMakeFiles/wheeldyn_bicycle.dir/build.make CMakeFiles/wheeldyn_bicycle.dir/wheeldyn_bicycle.cpp.o
+.PHONY : wheeldyn_bicycle.cpp.o
+
+wheeldyn_bicycle.i: wheeldyn_bicycle.cpp.i
+
+.PHONY : wheeldyn_bicycle.i
+
+# target to preprocess a source file
+wheeldyn_bicycle.cpp.i:
+	$(MAKE) -f CMakeFiles/wheeldyn_bicycle.dir/build.make CMakeFiles/wheeldyn_bicycle.dir/wheeldyn_bicycle.cpp.i
+.PHONY : wheeldyn_bicycle.cpp.i
+
+wheeldyn_bicycle.s: wheeldyn_bicycle.cpp.s
+
+.PHONY : wheeldyn_bicycle.s
+
+# target to generate assembly for a file
+wheeldyn_bicycle.cpp.s:
+	$(MAKE) -f CMakeFiles/wheeldyn_bicycle.dir/build.make CMakeFiles/wheeldyn_bicycle.dir/wheeldyn_bicycle.cpp.s
+.PHONY : wheeldyn_bicycle.cpp.s
+
+wheeldyn_bicycle_mpc.o: wheeldyn_bicycle_mpc.cpp.o
+
+.PHONY : wheeldyn_bicycle_mpc.o
+
+# target to build an object file
+wheeldyn_bicycle_mpc.cpp.o:
+	$(MAKE) -f CMakeFiles/wheeldyn_bicycle_mpc.dir/build.make CMakeFiles/wheeldyn_bicycle_mpc.dir/wheeldyn_bicycle_mpc.cpp.o
+.PHONY : wheeldyn_bicycle_mpc.cpp.o
+
+wheeldyn_bicycle_mpc.i: wheeldyn_bicycle_mpc.cpp.i
+
+.PHONY : wheeldyn_bicycle_mpc.i
+
+# target to preprocess a source file
+wheeldyn_bicycle_mpc.cpp.i:
+	$(MAKE) -f CMakeFiles/wheeldyn_bicycle_mpc.dir/build.make CMakeFiles/wheeldyn_bicycle_mpc.dir/wheeldyn_bicycle_mpc.cpp.i
+.PHONY : wheeldyn_bicycle_mpc.cpp.i
+
+wheeldyn_bicycle_mpc.s: wheeldyn_bicycle_mpc.cpp.s
+
+.PHONY : wheeldyn_bicycle_mpc.s
+
+# target to generate assembly for a file
+wheeldyn_bicycle_mpc.cpp.s:
+	$(MAKE) -f CMakeFiles/wheeldyn_bicycle_mpc.dir/build.make CMakeFiles/wheeldyn_bicycle_mpc.dir/wheeldyn_bicycle_mpc.cpp.s
+.PHONY : wheeldyn_bicycle_mpc.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -751,15 +751,15 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... johannes_mpc"
-	@echo "... kinematic_robot_test"
-	@echo "... mobile_robot_test"
-	@echo "... visualization_tools"
+	@echo "... simple_bicycle_mpc"
+	@echo "... wheeldyn_bicycle_mpc"
 	@echo "... rebuild_cache"
 	@echo "... matplotlib"
+	@echo "... visualization_tools"
+	@echo "... simple_bicycle"
+	@echo "... wheeldyn_bicycle"
 	@echo "... jintegrator"
-	@echo "... kinematic_robot"
 	@echo "... jkite"
-	@echo "... mobile_robot_new"
 	@echo "... polymath"
 	@echo "... odesolver"
 	@echo "... auto_diff_test2"
@@ -784,12 +784,6 @@ help:
 	@echo "... ThirdParty/polympc/src/integrator.o"
 	@echo "... ThirdParty/polympc/src/integrator.i"
 	@echo "... ThirdParty/polympc/src/integrator.s"
-	@echo "... kinematic_robot.o"
-	@echo "... kinematic_robot.i"
-	@echo "... kinematic_robot.s"
-	@echo "... kinematic_robot_test.o"
-	@echo "... kinematic_robot_test.i"
-	@echo "... kinematic_robot_test.s"
 	@echo "... kite.o"
 	@echo "... kite.i"
 	@echo "... kite.s"
@@ -799,15 +793,21 @@ help:
 	@echo "... matplotlibcpp.o"
 	@echo "... matplotlibcpp.i"
 	@echo "... matplotlibcpp.s"
-	@echo "... mobile_robot_new.o"
-	@echo "... mobile_robot_new.i"
-	@echo "... mobile_robot_new.s"
-	@echo "... mobile_robot_test.o"
-	@echo "... mobile_robot_test.i"
-	@echo "... mobile_robot_test.s"
+	@echo "... simple_bicycle.o"
+	@echo "... simple_bicycle.i"
+	@echo "... simple_bicycle.s"
+	@echo "... simple_bicycle_mpc.o"
+	@echo "... simple_bicycle_mpc.i"
+	@echo "... simple_bicycle_mpc.s"
 	@echo "... visualization_tools.o"
 	@echo "... visualization_tools.i"
 	@echo "... visualization_tools.s"
+	@echo "... wheeldyn_bicycle.o"
+	@echo "... wheeldyn_bicycle.i"
+	@echo "... wheeldyn_bicycle.s"
+	@echo "... wheeldyn_bicycle_mpc.o"
+	@echo "... wheeldyn_bicycle_mpc.i"
+	@echo "... wheeldyn_bicycle_mpc.s"
 .PHONY : help
 
 
