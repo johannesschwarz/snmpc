@@ -1,5 +1,5 @@
-#ifndef MOBILE_ROBOT_H
-#define MOBILE_ROBOT_H
+#ifndef WHEELDYN_BICYCLE_H
+#define WHEELDYN_BICYCLE_H
 
 #include "casadi/casadi.hpp"
 #include <chrono>
@@ -79,4 +79,4 @@ private:
     casadi::Function OutputMap;
 };
 
-#endif // MOBILE_ROBOT_H
+#endif // WHEELDYN_BICYCLE_H

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/johannes/Devel/snmpc/kinematic_bicycle.cpp
+kinematic_bicycle.hpp
+/home/johannes/Devel/snmpc/kinematic_bicycle.hpp
+
+/home/johannes/Devel/snmpc/kinematic_bicycle.hpp
+casadi/casadi.hpp
+/home/johannes/Devel/snmpc/casadi/casadi.hpp
+chrono
+-
+sys/stat.h
+/home/johannes/Devel/snmpc/sys/stat.h
+fstream
+-
+

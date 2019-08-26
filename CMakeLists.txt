@@ -25,11 +25,17 @@ target_link_libraries(wheeldyn_bicycle matplotlib ${CASADI_LIBRARIES})
 add_library(simple_bicycle simple_bicycle.cpp simple_bicycle.hpp)
 target_link_libraries(simple_bicycle matplotlib wheeldyn_bicycle ${CASADI_LIBRARIES})
 
+add_library(kinematic_bicycle kinematic_bicycle.cpp kinematic_bicycle.hpp)
+target_link_libraries(kinematic_bicycle matplotlib ${CASADI_LIBRARIES})
+
 add_executable(wheeldyn_bicycle_mpc wheeldyn_bicycle_mpc.cpp)
 target_link_libraries(wheeldyn_bicycle_mpc wheeldyn_bicycle Eigen3::Eigen jintegrator visualization_tools)
 
 add_executable(simple_bicycle_mpc simple_bicycle_mpc.cpp)
 target_link_libraries(simple_bicycle_mpc simple_bicycle Eigen3::Eigen jintegrator visualization_tools)
+
+add_executable(kinematic_bicycle_mpc kinematic_bicycle_mpc.cpp)
+target_link_libraries(kinematic_bicycle_mpc kinematic_bicycle Eigen3::Eigen jintegrator visualization_tools)
 
 add_executable(${PROJECT_NAME} main.cpp)
 target_link_libraries(${PROJECT_NAME} jkite Eigen3::Eigen ${CASADI_LIBRARIES})

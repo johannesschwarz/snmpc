@@ -57,27 +57,27 @@ include ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/progress.make
 # Include the compile flags for this target's objects.
 include ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/flags.make
 
-ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/mobile_robot.cpp.o: ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/flags.make
-ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/mobile_robot.cpp.o: ../ThirdParty/polympc/examples/mobile_robot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/mobile_robot.cpp.o"
-	cd /home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mobile_robot.dir/mobile_robot.cpp.o -c /home/johannes/Devel/snmpc/ThirdParty/polympc/examples/mobile_robot.cpp
+ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/kinematic_bicycle.cpp.o: ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/flags.make
+ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/kinematic_bicycle.cpp.o: ../ThirdParty/polympc/examples/kinematic_bicycle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/kinematic_bicycle.cpp.o"
+	cd /home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mobile_robot.dir/kinematic_bicycle.cpp.o -c /home/johannes/Devel/snmpc/ThirdParty/polympc/examples/kinematic_bicycle.cpp
 
-ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/mobile_robot.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mobile_robot.dir/mobile_robot.cpp.i"
-	cd /home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/johannes/Devel/snmpc/ThirdParty/polympc/examples/mobile_robot.cpp > CMakeFiles/mobile_robot.dir/mobile_robot.cpp.i
+ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/kinematic_bicycle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mobile_robot.dir/kinematic_bicycle.cpp.i"
+	cd /home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/johannes/Devel/snmpc/ThirdParty/polympc/examples/kinematic_bicycle.cpp > CMakeFiles/mobile_robot.dir/kinematic_bicycle.cpp.i
 
-ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/mobile_robot.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mobile_robot.dir/mobile_robot.cpp.s"
-	cd /home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/johannes/Devel/snmpc/ThirdParty/polympc/examples/mobile_robot.cpp -o CMakeFiles/mobile_robot.dir/mobile_robot.cpp.s
+ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/kinematic_bicycle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mobile_robot.dir/kinematic_bicycle.cpp.s"
+	cd /home/johannes/Devel/snmpc/cmake-build-debug/ThirdParty/polympc/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/johannes/Devel/snmpc/ThirdParty/polympc/examples/kinematic_bicycle.cpp -o CMakeFiles/mobile_robot.dir/kinematic_bicycle.cpp.s
 
 # Object files for target mobile_robot
 mobile_robot_OBJECTS = \
-"CMakeFiles/mobile_robot.dir/mobile_robot.cpp.o"
+"CMakeFiles/mobile_robot.dir/kinematic_bicycle.cpp.o"
 
 # External object files for target mobile_robot
 mobile_robot_EXTERNAL_OBJECTS =
 
-ThirdParty/polympc/examples/libmobile_robot.a: ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/mobile_robot.cpp.o
+ThirdParty/polympc/examples/libmobile_robot.a: ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/kinematic_bicycle.cpp.o
 ThirdParty/polympc/examples/libmobile_robot.a: ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/build.make
 ThirdParty/polympc/examples/libmobile_robot.a: ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libmobile_robot.a"

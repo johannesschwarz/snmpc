@@ -102,18 +102,59 @@ clean: CMakeFiles/johannes_mpc.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/kinematic_bicycle_mpc.dir
+
+# All Build rule for target.
+CMakeFiles/kinematic_bicycle_mpc.dir/all: CMakeFiles/kinematic_bicycle.dir/all
+CMakeFiles/kinematic_bicycle_mpc.dir/all: CMakeFiles/matplotlib.dir/all
+CMakeFiles/kinematic_bicycle_mpc.dir/all: CMakeFiles/visualization_tools.dir/all
+CMakeFiles/kinematic_bicycle_mpc.dir/all: CMakeFiles/jintegrator.dir/all
+CMakeFiles/kinematic_bicycle_mpc.dir/all: ThirdParty/polympc/cmake/CMakeFiles/polymath.dir/all
+	$(MAKE) -f CMakeFiles/kinematic_bicycle_mpc.dir/build.make CMakeFiles/kinematic_bicycle_mpc.dir/depend
+	$(MAKE) -f CMakeFiles/kinematic_bicycle_mpc.dir/build.make CMakeFiles/kinematic_bicycle_mpc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target kinematic_bicycle_mpc"
+.PHONY : CMakeFiles/kinematic_bicycle_mpc.dir/all
+
+# Include target in all.
+all: CMakeFiles/kinematic_bicycle_mpc.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/kinematic_bicycle_mpc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles 12
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/kinematic_bicycle_mpc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/kinematic_bicycle_mpc.dir/rule
+
+# Convenience name for target.
+kinematic_bicycle_mpc: CMakeFiles/kinematic_bicycle_mpc.dir/rule
+
+.PHONY : kinematic_bicycle_mpc
+
+# clean rule for target.
+CMakeFiles/kinematic_bicycle_mpc.dir/clean:
+	$(MAKE) -f CMakeFiles/kinematic_bicycle_mpc.dir/build.make CMakeFiles/kinematic_bicycle_mpc.dir/clean
+.PHONY : CMakeFiles/kinematic_bicycle_mpc.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/kinematic_bicycle_mpc.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/simple_bicycle_mpc.dir
 
 # All Build rule for target.
-CMakeFiles/simple_bicycle_mpc.dir/all: CMakeFiles/jintegrator.dir/all
-CMakeFiles/simple_bicycle_mpc.dir/all: ThirdParty/polympc/cmake/CMakeFiles/polymath.dir/all
 CMakeFiles/simple_bicycle_mpc.dir/all: CMakeFiles/matplotlib.dir/all
 CMakeFiles/simple_bicycle_mpc.dir/all: CMakeFiles/visualization_tools.dir/all
 CMakeFiles/simple_bicycle_mpc.dir/all: CMakeFiles/simple_bicycle.dir/all
 CMakeFiles/simple_bicycle_mpc.dir/all: CMakeFiles/wheeldyn_bicycle.dir/all
+CMakeFiles/simple_bicycle_mpc.dir/all: CMakeFiles/jintegrator.dir/all
+CMakeFiles/simple_bicycle_mpc.dir/all: ThirdParty/polympc/cmake/CMakeFiles/polymath.dir/all
 	$(MAKE) -f CMakeFiles/simple_bicycle_mpc.dir/build.make CMakeFiles/simple_bicycle_mpc.dir/depend
 	$(MAKE) -f CMakeFiles/simple_bicycle_mpc.dir/build.make CMakeFiles/simple_bicycle_mpc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target simple_bicycle_mpc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target simple_bicycle_mpc"
 .PHONY : CMakeFiles/simple_bicycle_mpc.dir/all
 
 # Include target in all.
@@ -147,14 +188,14 @@ clean: CMakeFiles/simple_bicycle_mpc.dir/clean
 # Target rules for target CMakeFiles/wheeldyn_bicycle_mpc.dir
 
 # All Build rule for target.
-CMakeFiles/wheeldyn_bicycle_mpc.dir/all: CMakeFiles/jintegrator.dir/all
-CMakeFiles/wheeldyn_bicycle_mpc.dir/all: ThirdParty/polympc/cmake/CMakeFiles/polymath.dir/all
 CMakeFiles/wheeldyn_bicycle_mpc.dir/all: CMakeFiles/matplotlib.dir/all
 CMakeFiles/wheeldyn_bicycle_mpc.dir/all: CMakeFiles/visualization_tools.dir/all
 CMakeFiles/wheeldyn_bicycle_mpc.dir/all: CMakeFiles/wheeldyn_bicycle.dir/all
+CMakeFiles/wheeldyn_bicycle_mpc.dir/all: CMakeFiles/jintegrator.dir/all
+CMakeFiles/wheeldyn_bicycle_mpc.dir/all: ThirdParty/polympc/cmake/CMakeFiles/polymath.dir/all
 	$(MAKE) -f CMakeFiles/wheeldyn_bicycle_mpc.dir/build.make CMakeFiles/wheeldyn_bicycle_mpc.dir/depend
 	$(MAKE) -f CMakeFiles/wheeldyn_bicycle_mpc.dir/build.make CMakeFiles/wheeldyn_bicycle_mpc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=64,65 "Built target wheeldyn_bicycle_mpc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=68,69 "Built target wheeldyn_bicycle_mpc"
 .PHONY : CMakeFiles/wheeldyn_bicycle_mpc.dir/all
 
 # Include target in all.
@@ -185,13 +226,50 @@ clean: CMakeFiles/wheeldyn_bicycle_mpc.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/kinematic_bicycle.dir
+
+# All Build rule for target.
+CMakeFiles/kinematic_bicycle.dir/all: CMakeFiles/matplotlib.dir/all
+	$(MAKE) -f CMakeFiles/kinematic_bicycle.dir/build.make CMakeFiles/kinematic_bicycle.dir/depend
+	$(MAKE) -f CMakeFiles/kinematic_bicycle.dir/build.make CMakeFiles/kinematic_bicycle.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target kinematic_bicycle"
+.PHONY : CMakeFiles/kinematic_bicycle.dir/all
+
+# Include target in all.
+all: CMakeFiles/kinematic_bicycle.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/kinematic_bicycle.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/kinematic_bicycle.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/kinematic_bicycle.dir/rule
+
+# Convenience name for target.
+kinematic_bicycle: CMakeFiles/kinematic_bicycle.dir/rule
+
+.PHONY : kinematic_bicycle
+
+# clean rule for target.
+CMakeFiles/kinematic_bicycle.dir/clean:
+	$(MAKE) -f CMakeFiles/kinematic_bicycle.dir/build.make CMakeFiles/kinematic_bicycle.dir/clean
+.PHONY : CMakeFiles/kinematic_bicycle.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/kinematic_bicycle.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/matplotlib.dir
 
 # All Build rule for target.
 CMakeFiles/matplotlib.dir/all:
 	$(MAKE) -f CMakeFiles/matplotlib.dir/build.make CMakeFiles/matplotlib.dir/depend
 	$(MAKE) -f CMakeFiles/matplotlib.dir/build.make CMakeFiles/matplotlib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target matplotlib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target matplotlib"
 .PHONY : CMakeFiles/matplotlib.dir/all
 
 # Include target in all.
@@ -228,7 +306,7 @@ clean: CMakeFiles/matplotlib.dir/clean
 CMakeFiles/visualization_tools.dir/all:
 	$(MAKE) -f CMakeFiles/visualization_tools.dir/build.make CMakeFiles/visualization_tools.dir/depend
 	$(MAKE) -f CMakeFiles/visualization_tools.dir/build.make CMakeFiles/visualization_tools.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=60,61 "Built target visualization_tools"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=64,65 "Built target visualization_tools"
 .PHONY : CMakeFiles/visualization_tools.dir/all
 
 # Include target in all.
@@ -266,7 +344,7 @@ CMakeFiles/simple_bicycle.dir/all: CMakeFiles/matplotlib.dir/all
 CMakeFiles/simple_bicycle.dir/all: CMakeFiles/wheeldyn_bicycle.dir/all
 	$(MAKE) -f CMakeFiles/simple_bicycle.dir/build.make CMakeFiles/simple_bicycle.dir/depend
 	$(MAKE) -f CMakeFiles/simple_bicycle.dir/build.make CMakeFiles/simple_bicycle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target simple_bicycle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target simple_bicycle"
 .PHONY : CMakeFiles/simple_bicycle.dir/all
 
 # Include target in all.
@@ -303,7 +381,7 @@ clean: CMakeFiles/simple_bicycle.dir/clean
 CMakeFiles/wheeldyn_bicycle.dir/all: CMakeFiles/matplotlib.dir/all
 	$(MAKE) -f CMakeFiles/wheeldyn_bicycle.dir/build.make CMakeFiles/wheeldyn_bicycle.dir/depend
 	$(MAKE) -f CMakeFiles/wheeldyn_bicycle.dir/build.make CMakeFiles/wheeldyn_bicycle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=62,63 "Built target wheeldyn_bicycle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=66,67 "Built target wheeldyn_bicycle"
 .PHONY : CMakeFiles/wheeldyn_bicycle.dir/all
 
 # Include target in all.
@@ -461,7 +539,7 @@ ThirdParty/polympc/cmake/preinstall:
 ThirdParty/polympc/cmake/CMakeFiles/polymath.dir/all:
 	$(MAKE) -f ThirdParty/polympc/cmake/CMakeFiles/polymath.dir/build.make ThirdParty/polympc/cmake/CMakeFiles/polymath.dir/depend
 	$(MAKE) -f ThirdParty/polympc/cmake/CMakeFiles/polymath.dir/build.make ThirdParty/polympc/cmake/CMakeFiles/polymath.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target polymath"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target polymath"
 .PHONY : ThirdParty/polympc/cmake/CMakeFiles/polymath.dir/all
 
 # Include target in all.
@@ -498,7 +576,7 @@ clean: ThirdParty/polympc/cmake/CMakeFiles/polymath.dir/clean
 ThirdParty/polympc/cmake/CMakeFiles/odesolver.dir/all: ThirdParty/polympc/cmake/CMakeFiles/polymath.dir/all
 	$(MAKE) -f ThirdParty/polympc/cmake/CMakeFiles/odesolver.dir/build.make ThirdParty/polympc/cmake/CMakeFiles/odesolver.dir/depend
 	$(MAKE) -f ThirdParty/polympc/cmake/CMakeFiles/odesolver.dir/build.make ThirdParty/polympc/cmake/CMakeFiles/odesolver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target odesolver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target odesolver"
 .PHONY : ThirdParty/polympc/cmake/CMakeFiles/odesolver.dir/all
 
 # Include target in all.
@@ -648,7 +726,7 @@ ThirdParty/polympc/examples/CMakeFiles/kite_control_test.dir/all: ThirdParty/pol
 ThirdParty/polympc/examples/CMakeFiles/kite_control_test.dir/all: ThirdParty/polympc/examples/CMakeFiles/kite.dir/all
 	$(MAKE) -f ThirdParty/polympc/examples/CMakeFiles/kite_control_test.dir/build.make ThirdParty/polympc/examples/CMakeFiles/kite_control_test.dir/depend
 	$(MAKE) -f ThirdParty/polympc/examples/CMakeFiles/kite_control_test.dir/build.make ThirdParty/polympc/examples/CMakeFiles/kite_control_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target kite_control_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target kite_control_test"
 .PHONY : ThirdParty/polympc/examples/CMakeFiles/kite_control_test.dir/all
 
 # Include target in all.
@@ -685,7 +763,7 @@ clean: ThirdParty/polympc/examples/CMakeFiles/kite_control_test.dir/clean
 ThirdParty/polympc/examples/CMakeFiles/kite_sode_test.dir/all: ThirdParty/polympc/cmake/CMakeFiles/polymath.dir/all
 	$(MAKE) -f ThirdParty/polympc/examples/CMakeFiles/kite_sode_test.dir/build.make ThirdParty/polympc/examples/CMakeFiles/kite_sode_test.dir/depend
 	$(MAKE) -f ThirdParty/polympc/examples/CMakeFiles/kite_sode_test.dir/build.make ThirdParty/polympc/examples/CMakeFiles/kite_sode_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target kite_sode_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target kite_sode_test"
 .PHONY : ThirdParty/polympc/examples/CMakeFiles/kite_sode_test.dir/all
 
 # Include target in all.
@@ -722,7 +800,7 @@ clean: ThirdParty/polympc/examples/CMakeFiles/kite_sode_test.dir/clean
 ThirdParty/polympc/examples/CMakeFiles/legendre_test.dir/all: ThirdParty/polympc/cmake/CMakeFiles/polymath.dir/all
 	$(MAKE) -f ThirdParty/polympc/examples/CMakeFiles/legendre_test.dir/build.make ThirdParty/polympc/examples/CMakeFiles/legendre_test.dir/depend
 	$(MAKE) -f ThirdParty/polympc/examples/CMakeFiles/legendre_test.dir/build.make ThirdParty/polympc/examples/CMakeFiles/legendre_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target legendre_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target legendre_test"
 .PHONY : ThirdParty/polympc/examples/CMakeFiles/legendre_test.dir/all
 
 # Include target in all.
@@ -759,7 +837,7 @@ clean: ThirdParty/polympc/examples/CMakeFiles/legendre_test.dir/clean
 ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/all:
 	$(MAKE) -f ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/build.make ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/depend
 	$(MAKE) -f ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/build.make ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target mobile_robot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target mobile_robot"
 .PHONY : ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/all
 
 # Include target in all.
@@ -833,7 +911,7 @@ clean: ThirdParty/polympc/examples/CMakeFiles/ebyshev_test.dir/clean
 ThirdParty/polympc/examples/CMakeFiles/kite.dir/all: ThirdParty/polympc/cmake/CMakeFiles/polymath.dir/all
 	$(MAKE) -f ThirdParty/polympc/examples/CMakeFiles/kite.dir/build.make ThirdParty/polympc/examples/CMakeFiles/kite.dir/depend
 	$(MAKE) -f ThirdParty/polympc/examples/CMakeFiles/kite.dir/build.make ThirdParty/polympc/examples/CMakeFiles/kite.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target kite"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target kite"
 .PHONY : ThirdParty/polympc/examples/CMakeFiles/kite.dir/all
 
 # Include target in all.
@@ -870,7 +948,7 @@ clean: ThirdParty/polympc/examples/CMakeFiles/kite.dir/clean
 ThirdParty/polympc/examples/CMakeFiles/robot_control_test.dir/all: ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/all
 	$(MAKE) -f ThirdParty/polympc/examples/CMakeFiles/robot_control_test.dir/build.make ThirdParty/polympc/examples/CMakeFiles/robot_control_test.dir/depend
 	$(MAKE) -f ThirdParty/polympc/examples/CMakeFiles/robot_control_test.dir/build.make ThirdParty/polympc/examples/CMakeFiles/robot_control_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target robot_control_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target robot_control_test"
 .PHONY : ThirdParty/polympc/examples/CMakeFiles/robot_control_test.dir/all
 
 # Include target in all.
@@ -904,12 +982,12 @@ clean: ThirdParty/polympc/examples/CMakeFiles/robot_control_test.dir/clean
 # Target rules for target ThirdParty/polympc/examples/CMakeFiles/kite_model_test.dir
 
 # All Build rule for target.
-ThirdParty/polympc/examples/CMakeFiles/kite_model_test.dir/all: ThirdParty/polympc/cmake/CMakeFiles/odesolver.dir/all
 ThirdParty/polympc/examples/CMakeFiles/kite_model_test.dir/all: ThirdParty/polympc/cmake/CMakeFiles/polymath.dir/all
+ThirdParty/polympc/examples/CMakeFiles/kite_model_test.dir/all: ThirdParty/polympc/cmake/CMakeFiles/odesolver.dir/all
 ThirdParty/polympc/examples/CMakeFiles/kite_model_test.dir/all: ThirdParty/polympc/examples/CMakeFiles/kite.dir/all
 	$(MAKE) -f ThirdParty/polympc/examples/CMakeFiles/kite_model_test.dir/build.make ThirdParty/polympc/examples/CMakeFiles/kite_model_test.dir/depend
 	$(MAKE) -f ThirdParty/polympc/examples/CMakeFiles/kite_model_test.dir/build.make ThirdParty/polympc/examples/CMakeFiles/kite_model_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target kite_model_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target kite_model_test"
 .PHONY : ThirdParty/polympc/examples/CMakeFiles/kite_model_test.dir/all
 
 # Include target in all.
@@ -1011,7 +1089,7 @@ ThirdParty/polympc/src/control/preinstall:
 ThirdParty/polympc/src/control/CMakeFiles/nmpc_test.dir/all:
 	$(MAKE) -f ThirdParty/polympc/src/control/CMakeFiles/nmpc_test.dir/build.make ThirdParty/polympc/src/control/CMakeFiles/nmpc_test.dir/depend
 	$(MAKE) -f ThirdParty/polympc/src/control/CMakeFiles/nmpc_test.dir/build.make ThirdParty/polympc/src/control/CMakeFiles/nmpc_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target nmpc_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target nmpc_test"
 .PHONY : ThirdParty/polympc/src/control/CMakeFiles/nmpc_test.dir/all
 
 # Include target in all.
@@ -1048,7 +1126,7 @@ clean: ThirdParty/polympc/src/control/CMakeFiles/nmpc_test.dir/clean
 ThirdParty/polympc/src/control/CMakeFiles/ocproblem_test.dir/all:
 	$(MAKE) -f ThirdParty/polympc/src/control/CMakeFiles/ocproblem_test.dir/build.make ThirdParty/polympc/src/control/CMakeFiles/ocproblem_test.dir/depend
 	$(MAKE) -f ThirdParty/polympc/src/control/CMakeFiles/ocproblem_test.dir/build.make ThirdParty/polympc/src/control/CMakeFiles/ocproblem_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target ocproblem_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target ocproblem_test"
 .PHONY : ThirdParty/polympc/src/control/CMakeFiles/ocproblem_test.dir/all
 
 # Include target in all.
@@ -1253,7 +1331,7 @@ ThirdParty/polympc/src/solvers/preinstall:
 ThirdParty/polympc/src/solvers/CMakeFiles/qp_solver_test.dir/all:
 	$(MAKE) -f ThirdParty/polympc/src/solvers/CMakeFiles/qp_solver_test.dir/build.make ThirdParty/polympc/src/solvers/CMakeFiles/qp_solver_test.dir/depend
 	$(MAKE) -f ThirdParty/polympc/src/solvers/CMakeFiles/qp_solver_test.dir/build.make ThirdParty/polympc/src/solvers/CMakeFiles/qp_solver_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=45,46,47,48 "Built target qp_solver_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=49,50,51,52 "Built target qp_solver_test"
 .PHONY : ThirdParty/polympc/src/solvers/CMakeFiles/qp_solver_test.dir/all
 
 # Include target in all.
@@ -1290,7 +1368,7 @@ clean: ThirdParty/polympc/src/solvers/CMakeFiles/qp_solver_test.dir/clean
 ThirdParty/polympc/src/solvers/CMakeFiles/sqp_test.dir/all:
 	$(MAKE) -f ThirdParty/polympc/src/solvers/CMakeFiles/sqp_test.dir/build.make ThirdParty/polympc/src/solvers/CMakeFiles/sqp_test.dir/depend
 	$(MAKE) -f ThirdParty/polympc/src/solvers/CMakeFiles/sqp_test.dir/build.make ThirdParty/polympc/src/solvers/CMakeFiles/sqp_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=55,56,57,58,59 "Built target sqp_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles --progress-num=59,60,61,62,63 "Built target sqp_test"
 .PHONY : ThirdParty/polympc/src/solvers/CMakeFiles/sqp_test.dir/all
 
 # Include target in all.

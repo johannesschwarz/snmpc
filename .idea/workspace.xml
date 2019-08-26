@@ -8,6 +8,7 @@
       <config projectName="johannes_mpc" targetName="cost_approx_test" />
       <config projectName="johannes_mpc" targetName="polymath" />
       <config projectName="johannes_mpc" targetName="kite_model_test" />
+      <config projectName="johannes_mpc" targetName="kinematic_bicycle_mpc" />
       <config projectName="johannes_mpc" targetName="wheeldyn_bicycle" />
       <config projectName="johannes_mpc" targetName="wheeldyn_bicycle_mpc" />
       <config projectName="johannes_mpc" targetName="johannes_mpc" />
@@ -32,6 +33,7 @@
       <config projectName="johannes_mpc" targetName="jkite" />
       <config projectName="johannes_mpc" targetName="ocproblem_test" />
       <config projectName="johannes_mpc" targetName="kite" />
+      <config projectName="johannes_mpc" targetName="kinematic_bicycle" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -41,17 +43,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0df108e8-c153-460c-b547-611513b2c785" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/kinematic_bicycle.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kinematic_bicycle.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kinematic_bicycle_mpc.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdParty/polympc" beforeDir="false" afterPath="$PROJECT_DIR$/ThirdParty/polympc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdParty/polympc/examples/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ThirdParty/polympc/examples/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdParty/polympc/examples/mobile_robot.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ThirdParty/polympc/examples/kinematic_bicycle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdParty/polympc/src/nmpf.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/ThirdParty/polympc/src/nmpf.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kinematic_robot_test.dir/kinematic_robot_test.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kinematic_robot_test.dir/kinematic_robot_test.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/matplotlib.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/matplotlib.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mobile_robot_new.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mobile_robot_new.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mobile_robot_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mobile_robot_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/simple_bicycle.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/simple_bicycle.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/simple_bicycle_mpc.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/simple_bicycle_mpc.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/visualization_tools.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/visualization_tools.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wheeldyn_bicycle.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wheeldyn_bicycle.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wheeldyn_bicycle_mpc.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wheeldyn_bicycle_mpc.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/cmake/CMakeFiles/odesolver.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/cmake/CMakeFiles/odesolver.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/cmake/CMakeFiles/polymath.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/cmake/CMakeFiles/polymath.dir/progress.make" afterDir="false" />
@@ -60,20 +71,22 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/examples/CMakeFiles/kite_model_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/examples/CMakeFiles/kite_model_test.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/examples/CMakeFiles/kite_sode_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/examples/CMakeFiles/kite_sode_test.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/examples/CMakeFiles/legendre_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/examples/CMakeFiles/legendre_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/examples/CMakeFiles/robot_control_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/examples/CMakeFiles/robot_control_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/examples/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/examples/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/examples/examples.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/examples/examples.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/polympc.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/polympc.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/src/control/CMakeFiles/nmpc_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/src/control/CMakeFiles/nmpc_test.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/src/control/CMakeFiles/ocproblem_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/src/control/CMakeFiles/ocproblem_test.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/src/solvers/CMakeFiles/qp_solver_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/src/solvers/CMakeFiles/qp_solver_test.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/src/solvers/CMakeFiles/sqp_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/polympc/src/solvers/CMakeFiles/sqp_test.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/johannes_mpc.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/johannes_mpc.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/kinematic_robot_test" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/kinematic_robot_test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kinematic_robot.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/simple_bicycle.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kinematic_robot.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/simple_bicycle.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kinematic_robot_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/simple_bicycle_mpc.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile_robot_new.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/wheeldyn_bicycle.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile_robot_new.h" beforeDir="false" afterPath="$PROJECT_DIR$/wheeldyn_bicycle.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile_robot_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/wheeldyn_bicycle_mpc.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_bicycle_mpc.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/simple_bicycle_mpc.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wheeldyn_bicycle.h" beforeDir="false" afterPath="$PROJECT_DIR$/wheeldyn_bicycle.h" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.wheeldyn_bicycle_mpc">
+  <component name="RunManager" selected="CMake Application.kinematic_bicycle_mpc">
     <configuration name="auto_diff_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="johannes_mpc" TARGET_NAME="auto_diff_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="johannes_mpc" RUN_TARGET_NAME="auto_diff_test">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -186,6 +199,16 @@
       </method>
     </configuration>
     <configuration name="johannes_mpc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="johannes_mpc" TARGET_NAME="johannes_mpc" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="johannes_mpc" RUN_TARGET_NAME="johannes_mpc">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kinematic_bicycle" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="johannes_mpc" TARGET_NAME="kinematic_bicycle" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kinematic_bicycle_mpc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="johannes_mpc" TARGET_NAME="kinematic_bicycle_mpc" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="johannes_mpc" RUN_TARGET_NAME="kinematic_bicycle_mpc">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -289,6 +312,8 @@
       <item itemvalue="CMake Application.jintegrator" />
       <item itemvalue="CMake Application.jkite" />
       <item itemvalue="CMake Application.johannes_mpc" />
+      <item itemvalue="CMake Application.kinematic_bicycle" />
+      <item itemvalue="CMake Application.kinematic_bicycle_mpc" />
       <item itemvalue="CMake Application.matplotlib" />
       <item itemvalue="CMake Application.auto_diff_test" />
       <item itemvalue="CMake Application.auto_diff_test2" />
@@ -337,7 +362,7 @@
       <workItem from="1566456130714" duration="21904000" />
       <workItem from="1566543124630" duration="18347000" />
       <workItem from="1566569704832" duration="805000" />
-      <workItem from="1566805923498" duration="14325000" />
+      <workItem from="1566805923498" duration="17696000" />
     </task>
     <servers />
   </component>

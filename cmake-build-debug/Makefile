@@ -124,6 +124,19 @@ johannes_mpc/fast:
 .PHONY : johannes_mpc/fast
 
 #=============================================================================
+# Target rules for targets named kinematic_bicycle_mpc
+
+# Build rule for target.
+kinematic_bicycle_mpc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kinematic_bicycle_mpc
+.PHONY : kinematic_bicycle_mpc
+
+# fast build rule for target.
+kinematic_bicycle_mpc/fast:
+	$(MAKE) -f CMakeFiles/kinematic_bicycle_mpc.dir/build.make CMakeFiles/kinematic_bicycle_mpc.dir/build
+.PHONY : kinematic_bicycle_mpc/fast
+
+#=============================================================================
 # Target rules for targets named simple_bicycle_mpc
 
 # Build rule for target.
@@ -148,6 +161,19 @@ wheeldyn_bicycle_mpc: cmake_check_build_system
 wheeldyn_bicycle_mpc/fast:
 	$(MAKE) -f CMakeFiles/wheeldyn_bicycle_mpc.dir/build.make CMakeFiles/wheeldyn_bicycle_mpc.dir/build
 .PHONY : wheeldyn_bicycle_mpc/fast
+
+#=============================================================================
+# Target rules for targets named kinematic_bicycle
+
+# Build rule for target.
+kinematic_bicycle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kinematic_bicycle
+.PHONY : kinematic_bicycle
+
+# fast build rule for target.
+kinematic_bicycle/fast:
+	$(MAKE) -f CMakeFiles/kinematic_bicycle.dir/build.make CMakeFiles/kinematic_bicycle.dir/build
+.PHONY : kinematic_bicycle/fast
 
 #=============================================================================
 # Target rules for targets named matplotlib
@@ -527,6 +553,60 @@ ThirdParty/polympc/src/integrator.cpp.s:
 	$(MAKE) -f CMakeFiles/jintegrator.dir/build.make CMakeFiles/jintegrator.dir/ThirdParty/polympc/src/integrator.cpp.s
 .PHONY : ThirdParty/polympc/src/integrator.cpp.s
 
+kinematic_bicycle.o: kinematic_bicycle.cpp.o
+
+.PHONY : kinematic_bicycle.o
+
+# target to build an object file
+kinematic_bicycle.cpp.o:
+	$(MAKE) -f CMakeFiles/kinematic_bicycle.dir/build.make CMakeFiles/kinematic_bicycle.dir/kinematic_bicycle.cpp.o
+.PHONY : kinematic_bicycle.cpp.o
+
+kinematic_bicycle.i: kinematic_bicycle.cpp.i
+
+.PHONY : kinematic_bicycle.i
+
+# target to preprocess a source file
+kinematic_bicycle.cpp.i:
+	$(MAKE) -f CMakeFiles/kinematic_bicycle.dir/build.make CMakeFiles/kinematic_bicycle.dir/kinematic_bicycle.cpp.i
+.PHONY : kinematic_bicycle.cpp.i
+
+kinematic_bicycle.s: kinematic_bicycle.cpp.s
+
+.PHONY : kinematic_bicycle.s
+
+# target to generate assembly for a file
+kinematic_bicycle.cpp.s:
+	$(MAKE) -f CMakeFiles/kinematic_bicycle.dir/build.make CMakeFiles/kinematic_bicycle.dir/kinematic_bicycle.cpp.s
+.PHONY : kinematic_bicycle.cpp.s
+
+kinematic_bicycle_mpc.o: kinematic_bicycle_mpc.cpp.o
+
+.PHONY : kinematic_bicycle_mpc.o
+
+# target to build an object file
+kinematic_bicycle_mpc.cpp.o:
+	$(MAKE) -f CMakeFiles/kinematic_bicycle_mpc.dir/build.make CMakeFiles/kinematic_bicycle_mpc.dir/kinematic_bicycle_mpc.cpp.o
+.PHONY : kinematic_bicycle_mpc.cpp.o
+
+kinematic_bicycle_mpc.i: kinematic_bicycle_mpc.cpp.i
+
+.PHONY : kinematic_bicycle_mpc.i
+
+# target to preprocess a source file
+kinematic_bicycle_mpc.cpp.i:
+	$(MAKE) -f CMakeFiles/kinematic_bicycle_mpc.dir/build.make CMakeFiles/kinematic_bicycle_mpc.dir/kinematic_bicycle_mpc.cpp.i
+.PHONY : kinematic_bicycle_mpc.cpp.i
+
+kinematic_bicycle_mpc.s: kinematic_bicycle_mpc.cpp.s
+
+.PHONY : kinematic_bicycle_mpc.s
+
+# target to generate assembly for a file
+kinematic_bicycle_mpc.cpp.s:
+	$(MAKE) -f CMakeFiles/kinematic_bicycle_mpc.dir/build.make CMakeFiles/kinematic_bicycle_mpc.dir/kinematic_bicycle_mpc.cpp.s
+.PHONY : kinematic_bicycle_mpc.cpp.s
+
 kite.o: kite.cpp.o
 
 .PHONY : kite.o
@@ -751,8 +831,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... johannes_mpc"
+	@echo "... kinematic_bicycle_mpc"
 	@echo "... simple_bicycle_mpc"
 	@echo "... wheeldyn_bicycle_mpc"
+	@echo "... kinematic_bicycle"
 	@echo "... rebuild_cache"
 	@echo "... matplotlib"
 	@echo "... visualization_tools"
@@ -784,6 +866,12 @@ help:
 	@echo "... ThirdParty/polympc/src/integrator.o"
 	@echo "... ThirdParty/polympc/src/integrator.i"
 	@echo "... ThirdParty/polympc/src/integrator.s"
+	@echo "... kinematic_bicycle.o"
+	@echo "... kinematic_bicycle.i"
+	@echo "... kinematic_bicycle.s"
+	@echo "... kinematic_bicycle_mpc.o"
+	@echo "... kinematic_bicycle_mpc.i"
+	@echo "... kinematic_bicycle_mpc.s"
 	@echo "... kite.o"
 	@echo "... kite.i"
 	@echo "... kite.s"

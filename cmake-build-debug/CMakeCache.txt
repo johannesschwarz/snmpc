@@ -278,6 +278,9 @@ johannes_mpc_BINARY_DIR:STATIC=/home/johannes/Devel/snmpc/cmake-build-debug
 johannes_mpc_SOURCE_DIR:STATIC=/home/johannes/Devel/snmpc
 
 //Dependencies for the target
+kinematic_bicycle_LIB_DEPENDS:STATIC=general;matplotlib;general;casadi;
+
+//Dependencies for the target
 kinematic_robot_LIB_DEPENDS:STATIC=general;matplotlib;general;mobile_robot_new;general;casadi;
 
 //Dependencies for the target

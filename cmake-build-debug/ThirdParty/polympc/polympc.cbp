@@ -1200,6 +1200,9 @@
 		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/ebyshev_test.cpp">
 			<Option target="ebyshev_test"/>
 		</Unit>
+		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/kinematic_bicycle.cpp">
+			<Option target="mobile_robot"/>
+		</Unit>
 		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/kite.cpp">
 			<Option target="kite"/>
 		</Unit>
@@ -1217,9 +1220,6 @@
 		</Unit>
 		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/legendre_test.cpp">
 			<Option target="legendre_test"/>
-		</Unit>
-		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/mobile_robot.cpp">
-			<Option target="mobile_robot"/>
 		</Unit>
 		<Unit filename="/home/johannes/Devel/snmpc/ThirdParty/polympc/examples/mobile_robot.hpp">
 			<Option target="mobile_robot"/>

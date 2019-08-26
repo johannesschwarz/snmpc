@@ -41,8 +41,8 @@ int main(int argc, char **argv)
     const int n_sim = 10;                            // simulation steps
     const double dt_sim = 1.0 / 50.0;               // timestep for simulation
     Dict ode_params({{"tf", dt_sim}});              // parameters for ode solver
-    SimpleBicycle kinematic_robot;                       // dynamics object
-    Function ode_rhs = kinematic_robot.getDynamics();  // get the RHS of the robot ODE
+    SimpleBicycle simple_bicycle;                       // dynamics object
+    Function ode_rhs = simple_bicycle.getDynamics();  // get the RHS of the robot ODE
     ODESolver ode_solver(ode_rhs, ode_params);      // create solver object
     // controller
     const double tf = 8.0;      // [s] time horizon for MPC

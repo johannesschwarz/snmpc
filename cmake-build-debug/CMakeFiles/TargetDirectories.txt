@@ -1,7 +1,9 @@
 /home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles/johannes_mpc.dir
+/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles/kinematic_bicycle_mpc.dir
 /home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles/simple_bicycle_mpc.dir
 /home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles/wheeldyn_bicycle_mpc.dir
+/home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles/kinematic_bicycle.dir
 /home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles/matplotlib.dir
 /home/johannes/Devel/snmpc/cmake-build-debug/CMakeFiles/visualization_tools.dir

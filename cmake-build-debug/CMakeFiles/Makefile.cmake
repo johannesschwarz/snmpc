@@ -78,8 +78,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/johannes_mpc.dir/DependInfo.cmake"
+  "CMakeFiles/kinematic_bicycle_mpc.dir/DependInfo.cmake"
   "CMakeFiles/simple_bicycle_mpc.dir/DependInfo.cmake"
   "CMakeFiles/wheeldyn_bicycle_mpc.dir/DependInfo.cmake"
+  "CMakeFiles/kinematic_bicycle.dir/DependInfo.cmake"
   "CMakeFiles/matplotlib.dir/DependInfo.cmake"
   "CMakeFiles/visualization_tools.dir/DependInfo.cmake"
   "CMakeFiles/simple_bicycle.dir/DependInfo.cmake"
