@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/kinematic_robot_test.dir/kinematic_robot_test.cpp.o  -o kinematic_robot_test -Wl,-rpath,/usr/local/lib libkinematic_robot.a libjintegrator.a libvisualization_tools.a libmobile_robot_new.a libmatplotlib.a /usr/lib/x86_64-linux-gnu/libpython2.7.so ThirdParty/polympc/cmake/libpolymath.a /usr/local/lib/libcasadi.so /usr/local/lib/libcasadi.so.3.5 -ldl 

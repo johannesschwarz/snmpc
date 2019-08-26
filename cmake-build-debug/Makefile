@@ -124,6 +124,32 @@ johannes_mpc/fast:
 .PHONY : johannes_mpc/fast
 
 #=============================================================================
+# Target rules for targets named kinematic_robot_test
+
+# Build rule for target.
+kinematic_robot_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kinematic_robot_test
+.PHONY : kinematic_robot_test
+
+# fast build rule for target.
+kinematic_robot_test/fast:
+	$(MAKE) -f CMakeFiles/kinematic_robot_test.dir/build.make CMakeFiles/kinematic_robot_test.dir/build
+.PHONY : kinematic_robot_test/fast
+
+#=============================================================================
+# Target rules for targets named mobile_robot_test
+
+# Build rule for target.
+mobile_robot_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mobile_robot_test
+.PHONY : mobile_robot_test
+
+# fast build rule for target.
+mobile_robot_test/fast:
+	$(MAKE) -f CMakeFiles/mobile_robot_test.dir/build.make CMakeFiles/mobile_robot_test.dir/build
+.PHONY : mobile_robot_test/fast
+
+#=============================================================================
 # Target rules for targets named visualization_tools
 
 # Build rule for target.
@@ -163,6 +189,19 @@ jintegrator/fast:
 .PHONY : jintegrator/fast
 
 #=============================================================================
+# Target rules for targets named kinematic_robot
+
+# Build rule for target.
+kinematic_robot: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kinematic_robot
+.PHONY : kinematic_robot
+
+# fast build rule for target.
+kinematic_robot/fast:
+	$(MAKE) -f CMakeFiles/kinematic_robot.dir/build.make CMakeFiles/kinematic_robot.dir/build
+.PHONY : kinematic_robot/fast
+
+#=============================================================================
 # Target rules for targets named jkite
 
 # Build rule for target.
@@ -187,19 +226,6 @@ mobile_robot_new: cmake_check_build_system
 mobile_robot_new/fast:
 	$(MAKE) -f CMakeFiles/mobile_robot_new.dir/build.make CMakeFiles/mobile_robot_new.dir/build
 .PHONY : mobile_robot_new/fast
-
-#=============================================================================
-# Target rules for targets named mobile_robot_test
-
-# Build rule for target.
-mobile_robot_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mobile_robot_test
-.PHONY : mobile_robot_test
-
-# fast build rule for target.
-mobile_robot_test/fast:
-	$(MAKE) -f CMakeFiles/mobile_robot_test.dir/build.make CMakeFiles/mobile_robot_test.dir/build
-.PHONY : mobile_robot_test/fast
 
 #=============================================================================
 # Target rules for targets named polymath
@@ -501,6 +527,60 @@ ThirdParty/polympc/src/integrator.cpp.s:
 	$(MAKE) -f CMakeFiles/jintegrator.dir/build.make CMakeFiles/jintegrator.dir/ThirdParty/polympc/src/integrator.cpp.s
 .PHONY : ThirdParty/polympc/src/integrator.cpp.s
 
+kinematic_robot.o: kinematic_robot.cpp.o
+
+.PHONY : kinematic_robot.o
+
+# target to build an object file
+kinematic_robot.cpp.o:
+	$(MAKE) -f CMakeFiles/kinematic_robot.dir/build.make CMakeFiles/kinematic_robot.dir/kinematic_robot.cpp.o
+.PHONY : kinematic_robot.cpp.o
+
+kinematic_robot.i: kinematic_robot.cpp.i
+
+.PHONY : kinematic_robot.i
+
+# target to preprocess a source file
+kinematic_robot.cpp.i:
+	$(MAKE) -f CMakeFiles/kinematic_robot.dir/build.make CMakeFiles/kinematic_robot.dir/kinematic_robot.cpp.i
+.PHONY : kinematic_robot.cpp.i
+
+kinematic_robot.s: kinematic_robot.cpp.s
+
+.PHONY : kinematic_robot.s
+
+# target to generate assembly for a file
+kinematic_robot.cpp.s:
+	$(MAKE) -f CMakeFiles/kinematic_robot.dir/build.make CMakeFiles/kinematic_robot.dir/kinematic_robot.cpp.s
+.PHONY : kinematic_robot.cpp.s
+
+kinematic_robot_test.o: kinematic_robot_test.cpp.o
+
+.PHONY : kinematic_robot_test.o
+
+# target to build an object file
+kinematic_robot_test.cpp.o:
+	$(MAKE) -f CMakeFiles/kinematic_robot_test.dir/build.make CMakeFiles/kinematic_robot_test.dir/kinematic_robot_test.cpp.o
+.PHONY : kinematic_robot_test.cpp.o
+
+kinematic_robot_test.i: kinematic_robot_test.cpp.i
+
+.PHONY : kinematic_robot_test.i
+
+# target to preprocess a source file
+kinematic_robot_test.cpp.i:
+	$(MAKE) -f CMakeFiles/kinematic_robot_test.dir/build.make CMakeFiles/kinematic_robot_test.dir/kinematic_robot_test.cpp.i
+.PHONY : kinematic_robot_test.cpp.i
+
+kinematic_robot_test.s: kinematic_robot_test.cpp.s
+
+.PHONY : kinematic_robot_test.s
+
+# target to generate assembly for a file
+kinematic_robot_test.cpp.s:
+	$(MAKE) -f CMakeFiles/kinematic_robot_test.dir/build.make CMakeFiles/kinematic_robot_test.dir/kinematic_robot_test.cpp.s
+.PHONY : kinematic_robot_test.cpp.s
+
 kite.o: kite.cpp.o
 
 .PHONY : kite.o
@@ -671,13 +751,15 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... johannes_mpc"
+	@echo "... kinematic_robot_test"
+	@echo "... mobile_robot_test"
 	@echo "... visualization_tools"
 	@echo "... rebuild_cache"
 	@echo "... matplotlib"
 	@echo "... jintegrator"
+	@echo "... kinematic_robot"
 	@echo "... jkite"
 	@echo "... mobile_robot_new"
-	@echo "... mobile_robot_test"
 	@echo "... polymath"
 	@echo "... odesolver"
 	@echo "... auto_diff_test2"
@@ -702,6 +784,12 @@ help:
 	@echo "... ThirdParty/polympc/src/integrator.o"
 	@echo "... ThirdParty/polympc/src/integrator.i"
 	@echo "... ThirdParty/polympc/src/integrator.s"
+	@echo "... kinematic_robot.o"
+	@echo "... kinematic_robot.i"
+	@echo "... kinematic_robot.s"
+	@echo "... kinematic_robot_test.o"
+	@echo "... kinematic_robot_test.i"
+	@echo "... kinematic_robot_test.s"
 	@echo "... kite.o"
 	@echo "... kite.i"
 	@echo "... kite.s"

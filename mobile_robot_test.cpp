@@ -39,7 +39,7 @@ int main(int argc, char **argv)
     const int dimx = 8;         // state dimension without augmentation
     const int dimu = 3;         // input dimension without augmentation
     // simulator
-    const int n_sim = 100;                            // simulation steps
+    const int n_sim = 20;                            // simulation steps
     const double dt_sim = 1.0 / 50.0;               // timestep for simulation
     Dict ode_params({{"tf", dt_sim}});              // parameters for ode solver
     MobileRobot mobile_robot;                       // dynamics object

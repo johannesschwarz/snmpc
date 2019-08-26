@@ -1,0 +1,2 @@
+/usr/bin/ar qc libkinematic_robot.a  CMakeFiles/kinematic_robot.dir/kinematic_robot.cpp.o
+/usr/bin/ranlib libkinematic_robot.a

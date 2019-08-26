@@ -1,0 +1,3 @@
+[submodule "ThirdParty/polympc"]
+	path = ThirdParty/polympc
+	url = https://github.com/LA-EPFL/polympc.git
