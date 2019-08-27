@@ -13,13 +13,24 @@ struct Path
     SXVector operator()(const SXVector &arg)
     {
         // simple circle, tangent pointing in y direction at phi=0 starting at [0,0]
-        SX phi = SX::sym("phi");
-        double radius = 50; // [m]
-        SX x = radius * (cos(phi) - 1);
-        SX y = radius * sin(phi);
+//        SX phi = SX::sym("phi");
+//        double radius = 50; // [m]
+//        SX x = radius * (cos(phi) - 1);
+//        SX y = radius * sin(phi);
+//        SX Path = SX::vertcat({x,y});
+//        Function path = Function("path", {phi},{Path});
+//        return path(arg);
+
+        // lemniskate with distance a_tilde = sqrt(2) * a between origin and extremum
+        // starting at the right extremum at [0 0]
+        double a_tilde = 50;
+        SX t_path = SX::sym("t_path");
+        SX x = a_tilde * (cos(t_path) / (pow(sin(t_path), 2) + 1) - 1);
+        SX y = a_tilde * cos(t_path) * sin(t_path) / (pow(sin(t_path), 2) + 1);
         SX Path = SX::vertcat({x,y});
-        Function path = Function("path", {phi},{Path});
+        Function path = Function("path", {t_path}, {Path});
         return path(arg);
+
     }
 };
 
