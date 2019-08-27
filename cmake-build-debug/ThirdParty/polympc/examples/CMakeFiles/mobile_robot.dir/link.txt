@@ -1,2 +1,2 @@
-/usr/bin/ar qc libmobile_robot.a  CMakeFiles/mobile_robot.dir/kinematic_bicycle.cpp.o
+/usr/bin/ar qc libmobile_robot.a  CMakeFiles/mobile_robot.dir/mobile_robot.cpp.o
 /usr/bin/ranlib libmobile_robot.a

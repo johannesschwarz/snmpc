@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/mobile_robot.dir/kinematic_bicycle.cpp.o"
+  "CMakeFiles/mobile_robot.dir/mobile_robot.cpp.o"
   "libmobile_robot.pdb"
   "libmobile_robot.a"
 )

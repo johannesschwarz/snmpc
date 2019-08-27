@@ -26,6 +26,17 @@ struct Path
 int main(int argc, char **argv)
 {
     /** variables **/
+
+    // model dimensions
+    const int dimx = 3;         // state dimension without augmentation
+    const int dimu = 2;         // input dimension without augmentation
+    // simulator
+    const int n_sim = 1571;                            // simulation steps
+    const double dt_sim = 1.0 / 50.0;               // timestep for simulation
+    Dict ode_params({{"tf", dt_sim}});              // parameters for ode solver
+    KinematicBicycle kinematic_bicycle;                       // dynamics object
+    Function ode_rhs = kinematic_bicycle.getDynamics();  // get the RHS of the robot ODE
+    ODESolver ode_solver(ode_rhs, ode_params);      // create solver object
     // memory
     DM state;               // current state
     DM augmented_state;     // current augmented state
@@ -34,20 +45,11 @@ int main(int argc, char **argv)
     DM opt_ctrl;            // current optimal control
     DMVector opt_traj_hist; // all past trajectories
     DMVector opt_ctrl_hist; // all past controls
-    // model dimensions
-    const int dimx = 3;         // state dimension without augmentation
-    const int dimu = 2;         // input dimension without augmentation
-    // simulator
-    const int n_sim = 1000;                            // simulation steps
-    const double dt_sim = 1.0 / 50.0;               // timestep for simulation
-    Dict ode_params({{"tf", dt_sim}});              // parameters for ode solver
-    KinematicBicycle kinematic_bicycle;                       // dynamics object
-    Function ode_rhs = kinematic_bicycle.getDynamics();  // get the RHS of the robot ODE
-    ODESolver ode_solver(ode_rhs, ode_params);      // create solver object
+    DM log_error = DM::zeros(1, n_sim);           // to log errors
     // controller
-    const double tf = 4.0;      // [s] time horizon for MPC
-    const int n_segments = 5;
-    const int poly_order = 4;
+    const double tf = 2.0;      // [s] time horizon for MPC
+    const int n_segments = 2;
+    const int poly_order = 5;
     polympc::nmpf<KinematicBicycle, Path, dimx, dimu, n_segments, poly_order> controller(tf);  // nmpf object
 
 
@@ -71,6 +73,7 @@ int main(int argc, char **argv)
     // reference velocity
     const double phi_dt_ref = 10.0 / 50.0;
     controller.setReferenceVelocity(phi_dt_ref);
+    controller.createNLP(casadi::Dict());
     // set initial state
     state = DM::vertcat({0, 0, M_PI_2});
     augmented_state = DM::vertcat({state, 0, phi_dt_ref});
@@ -98,6 +101,9 @@ int main(int argc, char **argv)
         /** Simulate **/
         state = ode_solver.solve(state, controls, dt_sim);
 
+        // Get velocity error
+        log_error(0,i_sim) = controller.getVelocityError();
+
         /** Prepare next loop **/
         // augment state
         augmented_state = DM::vertcat({state, opt_traj(Slice(opt_traj.size1() - 2, opt_traj.size1()), 0)});
@@ -113,8 +119,8 @@ int main(int argc, char **argv)
     Path path;
 
     // evaluate desired path
-    const int n_eval = 500;
-    DM theta_path_des = DM::linspace(-M_PI_4, M_PI, n_eval);
+    const int n_eval = 1000;
+    DM theta_path_des = DM::linspace(0, 2 * M_PI, n_eval);
     DM xy_path_des = vis::evaluatePath<Path>(path, theta_path_des);
     DM x_path_des = xy_path_des(0, Slice());
     DM y_path_des = xy_path_des(1, Slice());
@@ -165,14 +171,14 @@ int main(int argc, char **argv)
 
     plt::figure();
     plt::named_plot("desired path", x_path_des.nonzeros(), y_path_des.nonzeros());
-    plt::named_plot("driven path", x_real.nonzeros(), y_real.nonzeros());
-    int n_stride = 10;
+    int n_stride = 50;
     for(int i = 0; i < opt_traj_hist.size(); i = i + n_stride)
     {
         DM x_pred_cur = opt_traj_hist[i](0, Slice());
         DM y_pred_cur = opt_traj_hist[i](1, Slice());
         plt::plot(x_pred_cur.nonzeros(), y_pred_cur.nonzeros(), "c");
     }
+    plt::named_plot("driven path", x_real.nonzeros(), y_real.nonzeros(), "r");
     plt::axis("equal");
     plt::xlabel("x");
     plt::ylabel("y");
@@ -218,6 +224,13 @@ int main(int argc, char **argv)
     plt::xlabel("arc length");
     plt::ylabel("augmented input");
     plt::title("v_aug predicted");
+
+    plt::figure();
+    plt::named_plot("used in MPC", s_path_colloc_real.nonzeros(), log_error(0, Slice()).nonzeros());
+    plt::named_plot("calculated by myself", s_path_colloc_real.nonzeros(), (-theta_aug_dt_real + DM::ones(theta_aug_dt_real.size()) * phi_dt_ref).nonzeros());
+    plt::xlabel("arc length");
+    plt::ylabel("Velocity Error");
+    plt::legend();
 
     plt::show();
 

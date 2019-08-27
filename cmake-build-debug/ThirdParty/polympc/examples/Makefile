@@ -383,33 +383,6 @@ ebyshev_test.cpp.s:
 	cd /home/johannes/Devel/snmpc/cmake-build-debug && $(MAKE) -f ThirdParty/polympc/examples/CMakeFiles/ebyshev_test.dir/build.make ThirdParty/polympc/examples/CMakeFiles/ebyshev_test.dir/ebyshev_test.cpp.s
 .PHONY : ebyshev_test.cpp.s
 
-kinematic_bicycle.o: kinematic_bicycle.cpp.o
-
-.PHONY : kinematic_bicycle.o
-
-# target to build an object file
-kinematic_bicycle.cpp.o:
-	cd /home/johannes/Devel/snmpc/cmake-build-debug && $(MAKE) -f ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/build.make ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/kinematic_bicycle.cpp.o
-.PHONY : kinematic_bicycle.cpp.o
-
-kinematic_bicycle.i: kinematic_bicycle.cpp.i
-
-.PHONY : kinematic_bicycle.i
-
-# target to preprocess a source file
-kinematic_bicycle.cpp.i:
-	cd /home/johannes/Devel/snmpc/cmake-build-debug && $(MAKE) -f ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/build.make ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/kinematic_bicycle.cpp.i
-.PHONY : kinematic_bicycle.cpp.i
-
-kinematic_bicycle.s: kinematic_bicycle.cpp.s
-
-.PHONY : kinematic_bicycle.s
-
-# target to generate assembly for a file
-kinematic_bicycle.cpp.s:
-	cd /home/johannes/Devel/snmpc/cmake-build-debug && $(MAKE) -f ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/build.make ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/kinematic_bicycle.cpp.s
-.PHONY : kinematic_bicycle.cpp.s
-
 kite.o: kite.cpp.o
 
 .PHONY : kite.o
@@ -545,6 +518,33 @@ legendre_test.cpp.s:
 	cd /home/johannes/Devel/snmpc/cmake-build-debug && $(MAKE) -f ThirdParty/polympc/examples/CMakeFiles/legendre_test.dir/build.make ThirdParty/polympc/examples/CMakeFiles/legendre_test.dir/legendre_test.cpp.s
 .PHONY : legendre_test.cpp.s
 
+mobile_robot.o: mobile_robot.cpp.o
+
+.PHONY : mobile_robot.o
+
+# target to build an object file
+mobile_robot.cpp.o:
+	cd /home/johannes/Devel/snmpc/cmake-build-debug && $(MAKE) -f ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/build.make ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/mobile_robot.cpp.o
+.PHONY : mobile_robot.cpp.o
+
+mobile_robot.i: mobile_robot.cpp.i
+
+.PHONY : mobile_robot.i
+
+# target to preprocess a source file
+mobile_robot.cpp.i:
+	cd /home/johannes/Devel/snmpc/cmake-build-debug && $(MAKE) -f ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/build.make ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/mobile_robot.cpp.i
+.PHONY : mobile_robot.cpp.i
+
+mobile_robot.s: mobile_robot.cpp.s
+
+.PHONY : mobile_robot.s
+
+# target to generate assembly for a file
+mobile_robot.cpp.s:
+	cd /home/johannes/Devel/snmpc/cmake-build-debug && $(MAKE) -f ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/build.make ThirdParty/polympc/examples/CMakeFiles/mobile_robot.dir/mobile_robot.cpp.s
+.PHONY : mobile_robot.cpp.s
+
 robot_control_test.o: robot_control_test.cpp.o
 
 .PHONY : robot_control_test.o
@@ -603,9 +603,6 @@ help:
 	@echo "... ebyshev_test.o"
 	@echo "... ebyshev_test.i"
 	@echo "... ebyshev_test.s"
-	@echo "... kinematic_bicycle.o"
-	@echo "... kinematic_bicycle.i"
-	@echo "... kinematic_bicycle.s"
 	@echo "... kite.o"
 	@echo "... kite.i"
 	@echo "... kite.s"
@@ -621,6 +618,9 @@ help:
 	@echo "... legendre_test.o"
 	@echo "... legendre_test.i"
 	@echo "... legendre_test.s"
+	@echo "... mobile_robot.o"
+	@echo "... mobile_robot.i"
+	@echo "... mobile_robot.s"
 	@echo "... robot_control_test.o"
 	@echo "... robot_control_test.i"
 	@echo "... robot_control_test.s"
